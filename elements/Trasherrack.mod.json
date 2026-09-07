@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "block",
   "definition": {
-    "texture": "cheappoint",
+    "texture": "trasherrack",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -12,7 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "states": [],
     "animations": [],
@@ -38,12 +38,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Cheap Point",
+    "name": "Trasherrack",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.0,
-    "resistance": 20.0,
+    "hardness": 0.7,
+    "resistance": 5.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -51,16 +51,15 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "BREWING",
-      "TRANSPORTATION"
+      "DECORATIONS"
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -73,8 +72,8 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "SNOW",
-    "noteBlockInstrument": "dragon",
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "guitar",
     "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -84,11 +83,11 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.0,
+    "speedFactor": 1.1,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "soundOnStep": "SNOW",
+    "soundOnStep": "NETHERRACK",
     "isCustomSoundType": false,
     "breakSound": "",
     "fallSound": "",
@@ -96,7 +95,7 @@
     "placeSound": "",
     "stepSound": "",
     "luminance": {
-      "fixedValue": 15.0
+      "fixedValue": 0.0
     },
     "unbreakable": false,
     "vanillaToolTier": "NONE",

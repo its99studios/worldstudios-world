@@ -11814,6 +11814,37 @@
           "src/main/resources/data/worldstudios_world/recipe/steel_sythe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Trasherrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trasherrack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/TrasherrackBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/trasherrack.json",
+          "src/main/resources/assets/worldstudios_world/items/trasherrack.json",
+          "src/main/resources/assets/worldstudios_world/models/item/trasherrack.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/trasherrack.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/trasherrack.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherWastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/nether_wastes_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/biome/nether_wastes.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/nether_wastes_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12427,6 +12458,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",
       "~Girstone@CUSTOM:Girstone",
       "~SouldustGravite@CUSTOM:SouldustGravite",
@@ -12737,6 +12769,12 @@
     ],
     "ITEMS:mod:sythes": [
       "CUSTOM:SteelSythe"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~NetherWastes@CUSTOM:NetherWastes"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~NetherWastes@CUSTOM:NetherWastes"
     ]
   },
   "tab_element_order": {},
@@ -13852,7 +13890,9 @@
       "item.worldstudios_world.wopper_lunge": "Wopper Lunge",
       "advancements.lunge_life.title": "Lunge Life",
       "advancements.lunge_life.descr": "Obtain all Lunges.",
-      "item.worldstudios_world.steel_sythe": "Steel Sythe"
+      "item.worldstudios_world.steel_sythe": "Steel Sythe",
+      "item.worldstudios_world.trasherrack": "Trasherrack",
+      "biome.worldstudios_world.nether_wastes": "Nether Wastes"
     }
   },
   "metadata": {

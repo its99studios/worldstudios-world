@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.levelgen.placement.CaveSurface;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
 import net.minecraft.world.level.dimension.LevelStem;
@@ -57,6 +58,8 @@ public class WorldstudiosWorldModBiomes {
 	public static SurfaceRules.RuleSource adaptSurfaceRule(SurfaceRules.RuleSource currentRuleSource, Holder<DimensionType> dimensionType) {
 		if (dimensionType.is(BuiltinDimensionTypes.OVERWORLD))
 			return injectOverworldSurfaceRules(currentRuleSource);
+		if (dimensionType.is(BuiltinDimensionTypes.NETHER))
+			return injectNetherSurfaceRules(currentRuleSource);
 		return currentRuleSource;
 	}
 
@@ -65,6 +68,8 @@ public class WorldstudiosWorldModBiomes {
 			return originalList;
 		if (idArg.equals(OVERWORLD_BIOMESOURCE_PRESET_ID))
 			return WorldstudiosWorldModBiomes.modifyOverworldParameterPoints(originalList, lookup);
+		if (idArg.equals(NETHER_BIOMESOURCE_PRESET_ID))
+			return WorldstudiosWorldModBiomes.modifyNetherParameterPoints(originalList, lookup);
 		return originalList;
 	}
 
@@ -90,6 +95,28 @@ public class WorldstudiosWorldModBiomes {
 		return new Climate.ParameterList<>(parameters);
 	}
 
+	private static SurfaceRules.RuleSource injectNetherSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
+		List<SurfaceRules.RuleSource> customSurfaceRules = new ArrayList<>();
+		customSurfaceRules.add(anySurfaceRule(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "nether_wastes")), WorldstudiosWorldModBlocks.WASTE_BLOCK.get().defaultBlockState(),
+				WorldstudiosWorldModBlocks.TRASHERRACK.get().defaultBlockState(), WorldstudiosWorldModBlocks.TRASHERRACK.get().defaultBlockState()));
+		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
+			customSurfaceRules.addAll(sequenceRuleSource.sequence());
+			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
+		} else {
+			customSurfaceRules.add(currentRuleSource);
+			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
+		}
+	}
+
+	public static <T> Climate.ParameterList<T> modifyNetherParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
+		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.point(0.0f),
+				Climate.Parameter.span(-1f, 0.01f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "nether_wastes")))));
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.point(1.0f),
+				Climate.Parameter.span(-1f, 0.01f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "nether_wastes")))));
+		return new Climate.ParameterList<>(parameters);
+	}
+
 	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
 		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
 				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
@@ -97,6 +124,16 @@ public class WorldstudiosWorldModBiomes {
 								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
 										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
 								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
+	}
+
+	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.yBlockCheck(VerticalAnchor.aboveBottom(5), 0),
+						SurfaceRules.ifTrue(SurfaceRules.not(SurfaceRules.yBlockCheck(VerticalAnchor.belowTop(5), 0)),
+								SurfaceRules.sequence(
+										SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+												SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+										SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))))));
 	}
 
 	public interface WorldstudiosWorldModNoiseGeneratorSettings {

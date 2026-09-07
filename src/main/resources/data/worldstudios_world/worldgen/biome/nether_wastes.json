@@ -1,0 +1,48 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "water_color": -13421773
+  },
+  "attributes": {
+    "minecraft:visual/fog_color": -10066330,
+    "minecraft:visual/water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "worldstudios_world:cuber",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "worldstudios_world:nether_wastes_tree"
+    ],
+    []
+  ]
+}

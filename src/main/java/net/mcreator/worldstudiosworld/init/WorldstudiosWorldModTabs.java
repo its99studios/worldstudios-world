@@ -348,6 +348,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.GIRSTONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.TRAVERTINE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.TALLMOSS.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.TRASHERRACK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());

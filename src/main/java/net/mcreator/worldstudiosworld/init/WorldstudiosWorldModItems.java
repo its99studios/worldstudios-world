@@ -390,6 +390,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> STEEL_LUNGE;
 	public static final DeferredItem<Item> WOPPER_LUNGE;
 	public static final DeferredItem<Item> STEEL_SYTHE;
+	public static final DeferredItem<Item> TRASHERRACK;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -757,6 +758,7 @@ public class WorldstudiosWorldModItems {
 		STEEL_LUNGE = register("steel_lunge", SteelLungeItem::new);
 		WOPPER_LUNGE = register("wopper_lunge", WopperLungeItem::new);
 		STEEL_SYTHE = register("steel_sythe", SteelSytheItem::new);
+		TRASHERRACK = block(WorldstudiosWorldModBlocks.TRASHERRACK);
 	}
 
 	// Start of user code block custom items
