@@ -15,14 +15,14 @@
     "recipeShapeless": true,
     "recipeSlots": [
       "Blocks.DIRT",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT"
     ],
     "recipeReturnStack": "CUSTOM:CheapPoint",
     "name": "cheap_point_recipe",

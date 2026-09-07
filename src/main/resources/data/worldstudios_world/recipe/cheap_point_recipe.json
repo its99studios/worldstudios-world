@@ -2,6 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
+    "#minecraft:dirt",
     "#minecraft:dirt"
   ],
   "result": {
