@@ -12,14 +12,7 @@
     "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "worldstudios_world:cuber",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [],
     "axolotls": [],

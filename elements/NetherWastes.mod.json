@@ -83,14 +83,6 @@
     "spawnBastionRemnant": true,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NETHER",
-    "spawnEntries": [
-      {
-        "entity": "CUSTOM:Cuber",
-        "minGroup": 1,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }
