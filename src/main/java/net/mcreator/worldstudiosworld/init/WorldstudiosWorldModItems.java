@@ -391,6 +391,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> WOPPER_LUNGE;
 	public static final DeferredItem<Item> STEEL_SYTHE;
 	public static final DeferredItem<Item> TRASHERRACK;
+	public static final DeferredItem<Item> TRASH_BRUTE_SPAWN_EGG;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -759,6 +760,7 @@ public class WorldstudiosWorldModItems {
 		WOPPER_LUNGE = register("wopper_lunge", WopperLungeItem::new);
 		STEEL_SYTHE = register("steel_sythe", SteelSytheItem::new);
 		TRASHERRACK = block(WorldstudiosWorldModBlocks.TRASHERRACK);
+		TRASH_BRUTE_SPAWN_EGG = register("trash_brute_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.TRASH_BRUTE.get())));
 	}
 
 	// Start of user code block custom items

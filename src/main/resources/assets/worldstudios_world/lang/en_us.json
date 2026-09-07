@@ -1111,5 +1111,7 @@
   "advancements.lunge_life.descr": "Obtain all Lunges.",
   "item.worldstudios_world.steel_sythe": "Steel Sythe",
   "item.worldstudios_world.trasherrack": "Trasherrack",
-  "biome.worldstudios_world.nether_wastes": "Nether Wastes"
+  "biome.worldstudios_world.nether_wastes": "Nether Wastes",
+  "entity.worldstudios_world.trash_brute": "Trash Brute",
+  "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg"
 }

@@ -42,6 +42,7 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(Modeltallzombie.LAYER_LOCATION, Modeltallzombie::createBodyLayer);
 		event.registerLayerDefinition(Modeldarkbat.LAYER_LOCATION, Modeldarkbat::createBodyLayer);
 		event.registerLayerDefinition(Modeldarksoul.LAYER_LOCATION, Modeldarksoul::createBodyLayer);
+		event.registerLayerDefinition(Modeltrash_brute.LAYER_LOCATION, Modeltrash_brute::createBodyLayer);
 		event.registerLayerDefinition(ModelProd.LAYER_LOCATION, ModelProd::createBodyLayer);
 		event.registerLayerDefinition(Modelcuber.LAYER_LOCATION, Modelcuber::createBodyLayer);
 		event.registerLayerDefinition(Modeldarkphantom.LAYER_LOCATION, Modeldarkphantom::createBodyLayer);

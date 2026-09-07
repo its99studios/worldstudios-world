@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "basalt_deltas",
+    "soul_sand_valley",
+    "worldstudios_world:nether_wastes"
+  ],
+  "spawners": {
+    "type": "worldstudios_world:trash_brute",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

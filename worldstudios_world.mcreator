@@ -11845,6 +11845,22 @@
           "src/main/resources/data/worldstudios_world/worldgen/placed_feature/nether_wastes_tree.json"
         ]
       }
+    },
+    {
+      "name": "TrashBrute",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_brute",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/trash_brute_spawn_egg.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/trash_brute_biome_modifier.json",
+          "src/main/resources/assets/worldstudios_world/models/item/trash_brute_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/TrashBruteEntity.java",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/TrashBruteRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13892,7 +13908,9 @@
       "advancements.lunge_life.descr": "Obtain all Lunges.",
       "item.worldstudios_world.steel_sythe": "Steel Sythe",
       "item.worldstudios_world.trasherrack": "Trasherrack",
-      "biome.worldstudios_world.nether_wastes": "Nether Wastes"
+      "biome.worldstudios_world.nether_wastes": "Nether Wastes",
+      "entity.worldstudios_world.trash_brute": "Trash Brute",
+      "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg"
     }
   },
   "metadata": {

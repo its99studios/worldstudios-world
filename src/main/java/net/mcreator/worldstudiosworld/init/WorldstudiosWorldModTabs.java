@@ -421,6 +421,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.SAWPING_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.OBSERVEER_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.WANDERER_SPAWN_EGG.get());
+			tabData.accept(WorldstudiosWorldModItems.TRASH_BRUTE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CHEAP_POINT.get().asItem());
 		}
