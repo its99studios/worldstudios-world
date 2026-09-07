@@ -11835,7 +11835,9 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [],
+    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [
+      "~CoalPickaxe@Items.COAL"
+    ],
     "ITEMS:worldstudios_world:ender_helmet_repair_items": [
       "~EnderHelmet@Items.ENDER_EYE"
     ],
@@ -12237,6 +12239,26 @@
     "ITEMS:worldstudios_world:repairer_repair_items": [
       "~Repairer@CUSTOM:Blazite"
     ],
+    "ITEMS:mod:lunges": [
+      "CUSTOM:BraniteLunge",
+      "CUSTOM:StoneLunge",
+      "CUSTOM:AmethesiumLunge",
+      "CUSTOM:IronLunge",
+      "CUSTOM:DiamondLunge",
+      "CUSTOM:NetheriteLunge",
+      "CUSTOM:UrainiumLunge",
+      "CUSTOM:TitanLunge",
+      "CUSTOM:SparkleLunge",
+      "CUSTOM:BlaziteLunge",
+      "CUSTOM:WoolLunge",
+      "CUSTOM:IgnightiumLunge",
+      "CUSTOM:RepeatingCommandBlockLunge",
+      "CUSTOM:SteelLunge",
+      "CUSTOM:WopperLunge"
+    ],
+    "ITEMS:worldstudios_world:steel_sythe_repair_items": [
+      "~SteelSythe@CUSTOM:Steel"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~WopperLunge@CUSTOM:WopperLunge",
       "~SteelLunge@CUSTOM:SteelLunge",
@@ -12316,17 +12338,17 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
-      "~Spike@CUSTOM:Spike",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
+      "~Spike@CUSTOM:Spike",
       "~Dirt@CUSTOM:Dirt",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
-      "~Spike@CUSTOM:Spike",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
+      "~Spike@CUSTOM:Spike",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
@@ -12713,25 +12735,8 @@
     "ITEMS:minecraft:meat": [
       "~DriedFlesh@CUSTOM:DriedFlesh"
     ],
-    "ITEMS:mod:lunges": [
-      "CUSTOM:BraniteLunge",
-      "CUSTOM:StoneLunge",
-      "CUSTOM:AmethesiumLunge",
-      "CUSTOM:IronLunge",
-      "CUSTOM:DiamondLunge",
-      "CUSTOM:NetheriteLunge",
-      "CUSTOM:UrainiumLunge",
-      "CUSTOM:TitanLunge",
-      "CUSTOM:SparkleLunge",
-      "CUSTOM:BlaziteLunge",
-      "CUSTOM:WoolLunge",
-      "CUSTOM:IgnightiumLunge",
-      "CUSTOM:RepeatingCommandBlockLunge",
-      "CUSTOM:SteelLunge",
-      "CUSTOM:WopperLunge"
-    ],
-    "ITEMS:worldstudios_world:steel_sythe_repair_items": [
-      "~SteelSythe@CUSTOM:Steel"
+    "ITEMS:mod:sythes": [
+      "CUSTOM:SteelSythe"
     ]
   },
   "tab_element_order": {},
@@ -13899,7 +13904,7 @@
   "workspaceSettings": {
     "modid": "worldstudios_world",
     "modName": "WorldStudios World",
-    "version": "26.1.2.8.4",
+    "version": "26.1.2.9.1",
     "description": "Adds a bunch of random stuff to minecraft java like an ender helmet and a biome full of waste.",
     "author": "WorldStudios",
     "websiteURL": "https://its99studios.wordpress.com",
