@@ -8078,7 +8078,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "branite_lunge_living_entity_is_hit_with_tool",
+      "registry_name": "cause_bleed",
       "metadata": {
         "dependencies": [
           {
@@ -11854,11 +11854,11 @@
       "registry_name": "trash_brute",
       "metadata": {
         "files": [
-          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/trash_brute_biome_modifier.json",
-          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/TrashBruteRenderer.java",
           "src/main/resources/assets/worldstudios_world/items/trash_brute_spawn_egg.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/trash_brute_biome_modifier.json",
+          "src/main/resources/assets/worldstudios_world/models/item/trash_brute_spawn_egg.json",
           "src/main/java/net/mcreator/worldstudiosworld/entity/TrashBruteEntity.java",
-          "src/main/resources/assets/worldstudios_world/models/item/trash_brute_spawn_egg.json"
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/TrashBruteRenderer.java"
         ]
       }
     },
@@ -12631,9 +12631,35 @@
     "ITEMS:worldstudios_world:steel_sythe_repair_items": [
       "~SteelSythe@CUSTOM:Steel"
     ],
+    "ITEMS:mod:sythes": [
+      "CUSTOM:SteelSythe"
+    ],
+    "ITEMS:worldstudios_world:nezium_pickaxe_repair_items": [
+      "~NeziumPickaxe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_axe_repair_items": [
+      "~NeziumAxe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_sword_repair_items": [
+      "~NeziumSword@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_shovel_repair_items": [
+      "~NeziumShovel@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_hoe_repair_items": [
+      "~NeziumHoe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_armor_repair_items": [
+      "~NeziumArmor@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_lunge_repair_items": [
+      "~NeziumLunge@CUSTOM:NeziumIngot"
+    ],
     "ITEMS:minecraft:pickaxes": [
+      "~IronLunge@CUSTOM:IronLunge",
+      "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
+      "~StoneLunge@CUSTOM:StoneLunge",
       "~NeziumLunge@CUSTOM:NeziumLunge",
-      "~NeziumPickaxe@CUSTOM:NeziumPickaxe",
       "~WopperLunge@CUSTOM:WopperLunge",
       "~SteelLunge@CUSTOM:SteelLunge",
       "~RepeatingCommandBlockLunge@CUSTOM:RepeatingCommandBlockLunge",
@@ -12645,13 +12671,11 @@
       "~UrainiumLunge@CUSTOM:UrainiumLunge",
       "~NetheriteLunge@CUSTOM:NetheriteLunge",
       "~DiamondLunge@CUSTOM:DiamondLunge",
-      "~IronLunge@CUSTOM:IronLunge",
+      "~NeziumPickaxe@CUSTOM:NeziumPickaxe",
       "~Repairer@CUSTOM:Repairer",
       "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
-      "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
       "~AmethesiumPickaxe@CUSTOM:AmethesiumPickaxe",
-      "~StoneLunge@CUSTOM:StoneLunge",
       "~BraniteLunge@CUSTOM:BraniteLunge",
       "~RefinedFlintAndSteel@CUSTOM:RefinedFlintAndSteel",
       "~SteelToolPickaxe@CUSTOM:SteelToolPickaxe",
@@ -13121,9 +13145,6 @@
     "ITEMS:minecraft:meat": [
       "~DriedFlesh@CUSTOM:DriedFlesh"
     ],
-    "ITEMS:mod:sythes": [
-      "CUSTOM:SteelSythe"
-    ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
       "~NetherWastes@CUSTOM:NetherWastes"
     ],
@@ -13133,27 +13154,6 @@
     "ITEMS:minecraft:piglin_loved": [
       "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
-    ],
-    "ITEMS:worldstudios_world:nezium_pickaxe_repair_items": [
-      "~NeziumPickaxe@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_axe_repair_items": [
-      "~NeziumAxe@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_sword_repair_items": [
-      "~NeziumSword@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_shovel_repair_items": [
-      "~NeziumShovel@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_hoe_repair_items": [
-      "~NeziumHoe@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_armor_repair_items": [
-      "~NeziumArmor@CUSTOM:NeziumIngot"
-    ],
-    "ITEMS:worldstudios_world:nezium_lunge_repair_items": [
-      "~NeziumLunge@CUSTOM:NeziumIngot"
     ]
   },
   "tab_element_order": {},

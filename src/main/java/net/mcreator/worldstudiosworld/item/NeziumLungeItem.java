@@ -14,6 +14,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.worldstudiosworld.procedures.BraniteLungeLivingEntityIsHitWithToolProcedure;
+
 public class NeziumLungeItem extends Item {
 	public NeziumLungeItem(Item.Properties properties) {
 		super(properties.durability(1706).repairable(TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:nezium_lunge_repair_items")))
@@ -36,5 +38,6 @@ public class NeziumLungeItem extends Item {
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, entity.getUsedItemHand().asEquipmentSlot());
+		BraniteLungeLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 	}
 }

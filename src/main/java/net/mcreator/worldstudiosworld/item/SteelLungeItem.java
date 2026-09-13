@@ -11,6 +11,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.worldstudiosworld.procedures.BraniteLungeLivingEntityIsHitWithToolProcedure;
+
 public class SteelLungeItem extends Item {
 	public SteelLungeItem(Item.Properties properties) {
 		super(properties.durability(1006).attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 29, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
@@ -31,5 +33,6 @@ public class SteelLungeItem extends Item {
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, entity.getUsedItemHand().asEquipmentSlot());
+		BraniteLungeLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 	}
 }

@@ -12,6 +12,6 @@ public class NeziumAxeItem extends AxeItem {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1741, 14f, 0, 56, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:nezium_axe_repair_items")));
 
 	public NeziumAxeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 35f, 0f, properties);
+		super(TOOL_MATERIAL, 15f, 8f, properties);
 	}
 }

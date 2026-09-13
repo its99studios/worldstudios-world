@@ -11,6 +11,6 @@ public class NeziumPickaxeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1741, 14f, 0, 56, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:nezium_pickaxe_repair_items")));
 
 	public NeziumPickaxeItem(Item.Properties properties) {
-		super(properties.pickaxe(TOOL_MATERIAL, 15f, 1f));
+		super(properties.pickaxe(TOOL_MATERIAL, 15f, 8f));
 	}
 }

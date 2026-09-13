@@ -11,6 +11,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.worldstudiosworld.procedures.BraniteLungeLivingEntityIsHitWithToolProcedure;
+
 public class UrainiumLungeItem extends Item {
 	public UrainiumLungeItem(Item.Properties properties) {
 		super(properties.durability(3990).fireResistant().attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 15, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
@@ -31,5 +33,6 @@ public class UrainiumLungeItem extends Item {
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, entity.getUsedItemHand().asEquipmentSlot());
+		BraniteLungeLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 	}
 }
