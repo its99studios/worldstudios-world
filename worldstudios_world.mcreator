@@ -12165,6 +12165,26 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VoidedEndStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voided_end_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/voided_end_stone.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/voided_end_stone.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/voided_end_stone.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/voided_end_stone.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/VoidedEndStoneBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/voided_end_stone.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/voided_end_stone.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/voided_end_stone_biome_modifier.json",
+          "src/main/resources/assets/worldstudios_world/models/item/voided_end_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12605,7 +12625,8 @@
       "CUSTOM:IgnightiumLunge",
       "CUSTOM:RepeatingCommandBlockLunge",
       "CUSTOM:SteelLunge",
-      "CUSTOM:WopperLunge"
+      "CUSTOM:WopperLunge",
+      "CUSTOM:NeziumLunge"
     ],
     "ITEMS:worldstudios_world:steel_sythe_repair_items": [
       "~SteelSythe@CUSTOM:Steel"
@@ -12784,6 +12805,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",
@@ -14264,7 +14286,8 @@
       "item.worldstudios_world.nezium_armor_helmet": "Nezium Helmet",
       "item.worldstudios_world.nezium_armor_chestplate": "Nezium Chestplate",
       "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
-      "item.worldstudios_world.nezium_lunge": "Nezium Lunge"
+      "item.worldstudios_world.nezium_lunge": "Nezium Lunge",
+      "item.worldstudios_world.voided_end_stone": "Voided End Stone"
     }
   },
   "metadata": {

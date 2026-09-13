@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "worldstudios_world:voided_end_stone",
+  "step": "underground_ores"
+}

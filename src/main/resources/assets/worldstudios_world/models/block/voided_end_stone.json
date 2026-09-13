@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "worldstudios_world:block/voided_end_stone",
+    "particle": "worldstudios_world:block/voided_end_stone"
+  }
+}

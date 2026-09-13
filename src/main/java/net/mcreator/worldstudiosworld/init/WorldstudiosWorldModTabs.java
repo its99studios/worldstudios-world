@@ -360,6 +360,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.TALLMOSS.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.TRASHERRACK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.VOIDED_END_STONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());

@@ -405,6 +405,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> NEZIUM_ARMOR_LEGGINGS;
 	public static final DeferredItem<Item> NEZIUM_ARMOR_BOOTS;
 	public static final DeferredItem<Item> NEZIUM_LUNGE;
+	public static final DeferredItem<Item> VOIDED_END_STONE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -787,6 +788,7 @@ public class WorldstudiosWorldModItems {
 		NEZIUM_ARMOR_LEGGINGS = register("nezium_armor_leggings", NeziumArmorItem.Leggings::new);
 		NEZIUM_ARMOR_BOOTS = register("nezium_armor_boots", NeziumArmorItem.Boots::new);
 		NEZIUM_LUNGE = register("nezium_lunge", NeziumLungeItem::new);
+		VOIDED_END_STONE = block(WorldstudiosWorldModBlocks.VOIDED_END_STONE, new Item.Properties().rarity(Rarity.UNCOMMON));
 	}
 
 	// Start of user code block custom items
