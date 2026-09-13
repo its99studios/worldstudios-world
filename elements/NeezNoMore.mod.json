@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Neez No More",
+    "achievementDescription": "Obtain all Nezium tools and armor.",
+    "achievementIcon": "CUSTOM:IgnightiumSword",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 50,
+    "achievementType": "goal",
+    "parent": "CUSTOM:INeedsium",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumPickaxe</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumAxe</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumSword</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumShovel</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumHoe</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumArmor.helmet</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumArmor.body</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumArmor.legs</field></block></value></block></value><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"min\">1</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NeziumArmor.boots</field></block></value></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><shadow type=\"custom_trigger\"></shadow></next></block></xml>"
+  }
+}

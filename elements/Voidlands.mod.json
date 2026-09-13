@@ -3,9 +3,9 @@
   "_type": "biome",
   "definition": {
     "name": "Voidlands",
-    "groundBlock": "CUSTOM:VoidedEndStone",
-    "undergroundBlock": "Blocks.END_STONE",
-    "underwaterBlock": "CUSTOM:VoidedEndStone",
+    "groundBlock": "Blocks.END_STONE",
+    "undergroundBlock": "CUSTOM:VoidedEndStone",
+    "underwaterBlock": "Blocks.END_STONE",
     "ambientSound": "",
     "additionsSound": "",
     "music": "",

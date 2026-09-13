@@ -37,7 +37,7 @@ public class WorldstudiosWorldModSurfaceRules {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				registerSurfaceRules(Identifier.parse("worldstudios_world:voidlands"), noiseGeneratorSettings, WorldstudiosWorldModBlocks.VOIDED_END_STONE.get().defaultBlockState(), Blocks.END_STONE.defaultBlockState());
+				registerSurfaceRules(Identifier.parse("worldstudios_world:voidlands"), noiseGeneratorSettings, Blocks.END_STONE.defaultBlockState(), WorldstudiosWorldModBlocks.VOIDED_END_STONE.get().defaultBlockState());
 			}
 		}
 	}

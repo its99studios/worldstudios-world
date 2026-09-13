@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:raw_nezium"
+    },
+    "title": {
+      "translate": "advancements.i_needsium.title"
+    },
+    "description": {
+      "translate": "advancements.i_needsium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_needsium_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "worldstudios_world:raw_nezium",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "minecraft:end/root"
+}

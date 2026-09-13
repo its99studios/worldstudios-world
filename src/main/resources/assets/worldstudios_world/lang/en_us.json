@@ -1138,5 +1138,9 @@
   "item.worldstudios_world.menderman_spawn_egg": "Menderman Spawn Egg",
   "advancements.half_weird.descr": "Discover the Halflands biome.",
   "advancements.half_weird.title": "Half Weird",
-  "item.worldstudios_world.void_stick": "Void Stick"
+  "item.worldstudios_world.void_stick": "Void Stick",
+  "advancements.i_needsium.descr": "Obtain Raw Nezium.",
+  "advancements.i_needsium.title": "I Needsium",
+  "advancements.neez_no_more.descr": "Obtain all Nezium tools and armor.",
+  "advancements.neez_no_more.title": "Neez No More"
 }

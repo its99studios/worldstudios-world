@@ -12385,6 +12385,30 @@
           "src/main/resources/data/worldstudios_world/recipe/void_stick_recipe.json"
         ]
       }
+    },
+    {
+      "name": "INeedsium",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_needsium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/i_needsium.json"
+        ]
+      }
+    },
+    {
+      "name": "NeezNoMore",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neez_no_more",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/neez_no_more.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -14524,7 +14548,11 @@
       "item.worldstudios_world.menderman_spawn_egg": "Menderman Spawn Egg",
       "advancements.half_weird.descr": "Discover the Halflands biome.",
       "advancements.half_weird.title": "Half Weird",
-      "item.worldstudios_world.void_stick": "Void Stick"
+      "item.worldstudios_world.void_stick": "Void Stick",
+      "advancements.i_needsium.descr": "Obtain Raw Nezium.",
+      "advancements.i_needsium.title": "I Needsium",
+      "advancements.neez_no_more.descr": "Obtain all Nezium tools and armor.",
+      "advancements.neez_no_more.title": "Neez No More"
     }
   },
   "metadata": {
