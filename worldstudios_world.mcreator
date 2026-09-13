@@ -11870,12 +11870,15 @@
       "registry_name": "end_nezium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/end_nezium_ore.json",
           "src/main/resources/assets/worldstudios_world/items/end_nezium_ore.json",
           "src/main/resources/data/worldstudios_world/loot_table/blocks/end_nezium_ore.json",
           "src/main/resources/assets/worldstudios_world/models/item/end_nezium_ore.json",
           "src/main/java/net/mcreator/worldstudiosworld/block/EndNeziumOreBlock.java",
           "src/main/resources/assets/worldstudios_world/blockstates/end_nezium_ore.json",
-          "src/main/resources/assets/worldstudios_world/models/block/end_nezium_ore.json"
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/end_nezium_ore_biome_modifier.json",
+          "src/main/resources/assets/worldstudios_world/models/block/end_nezium_ore.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/end_nezium_ore.json"
         ]
       }
     },
@@ -12854,8 +12857,8 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
+      "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",
       "~Girstone@CUSTOM:Girstone",
