@@ -23,6 +23,15 @@
         "state": {
           "Name": "worldstudios_world:void_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "c:stones"
+        },
+        "state": {
+          "Name": "worldstudios_world:void_block"
+        }
       }
     ]
   }

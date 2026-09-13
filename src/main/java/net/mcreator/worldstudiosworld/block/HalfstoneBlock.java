@@ -12,7 +12,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
 public class HalfstoneBlock extends Block {
-	private static final VoxelShape SHAPE = Shapes.or(box(0, 0, 0, 8, 3, 16), box(8, 0, 0, 16, 16, 16));
+	private static final VoxelShape SHAPE = Shapes.or(box(8, 0, 0, 16, 3, 16), box(0, 0, 0, 8, 16, 16));
 
 	public HalfstoneBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.SAND).strength(4f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.IRON_XYLOPHONE));

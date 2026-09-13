@@ -127,7 +127,8 @@
     ],
     "blocksToReplace": [
       "CUSTOM:Halfstone",
-      "Blocks.DIRT"
+      "Blocks.DIRT",
+      "Blocks.STONE"
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 1,

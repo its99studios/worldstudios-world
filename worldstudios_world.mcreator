@@ -12976,8 +12976,8 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~VoidBlock@CUSTOM:VoidBlock",
+      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",

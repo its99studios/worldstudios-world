@@ -5,7 +5,7 @@
     "up": "worldstudios_world:block/halfstone_top",
     "north": "worldstudios_world:block/halfstone_front",
     "east": "worldstudios_world:block/voided_end_stone",
-    "south": "worldstudios_world:block/halfstone_front",
+    "south": "worldstudios_world:block/halfstone_north",
     "west": "worldstudios_world:block/halfstone_right",
     "particle": "worldstudios_world:block/halfstone_bottom"
   }
