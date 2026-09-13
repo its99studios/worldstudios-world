@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:voidlands",
+  "features": "worldstudios_world:end_nezium_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 7,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "worldstudios_world:voided_end_stone"
+          }
+        },
+        "state": {
+          "Name": "worldstudios_world:end_nezium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:end_stone"
+          }
+        },
+        "state": {
+          "Name": "worldstudios_world:end_nezium_ore"
+        }
+      }
+    ]
+  }
+}

@@ -12185,6 +12185,31 @@
           "src/main/resources/assets/worldstudios_world/models/item/voided_end_stone.json"
         ]
       }
+    },
+    {
+      "name": "Voidlands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidlands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/VoidlandsFruitDecorator.java",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/voidlands_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/biome/voidlands.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/voidlands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidlandsEnd",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidlands_end",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -14287,7 +14312,8 @@
       "item.worldstudios_world.nezium_armor_chestplate": "Nezium Chestplate",
       "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
       "item.worldstudios_world.nezium_lunge": "Nezium Lunge",
-      "item.worldstudios_world.voided_end_stone": "Voided End Stone"
+      "item.worldstudios_world.voided_end_stone": "Voided End Stone",
+      "biome.worldstudios_world.voidlands": "Voidlands"
     }
   },
   "metadata": {
@@ -14299,6 +14325,18 @@
       "src/main/java/net/mcreator/worldstudiosworld/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModBiomes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModWoodTypes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/endbiomes/TheEndBiomes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/BiomeSourceMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/endbiomes/SamplerHooks.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/NoiseConfigMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModEndBiomes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/endbiomes/WeightedPicker.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/ClimateSamplerMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/TheEndBiomeSourceMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/ChunkNoiseSamplerMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/NoiseGeneratorSettingsAccess.java",
+      "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModSurfaceRules.java",
+      "src/main/java/net/mcreator/worldstudiosworld/endbiomes/TheEndBiomeData.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusFlowerBlockMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusPlantBlockMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluids.java",

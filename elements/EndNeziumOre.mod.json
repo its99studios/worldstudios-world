@@ -121,15 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
-    "blocksToReplace": [
-      "TAG:stone_ore_replaceables"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      "CUSTOM:Voidlands"
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "blocksToReplace": [
+      "CUSTOM:VoidedEndStone",
+      "Blocks.END_STONE"
+    ],
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 7,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 128
   }
 }
