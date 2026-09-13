@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:VoidBlock",
+      "CUSTOM:Halfstone"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:Halfstone",
+      "CUSTOM:VoidBlock",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:VoidedEndStone",
+    "name": "voided_end_stone_recipe",
+    "namespace": "mod"
+  }
+}

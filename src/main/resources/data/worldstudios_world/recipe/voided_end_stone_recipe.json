@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "worldstudios_world:halfstone",
+    "worldstudios_world:void_block"
+  ],
+  "result": {
+    "id": "worldstudios_world:voided_end_stone",
+    "count": 1
+  }
+}
