@@ -12304,6 +12304,18 @@
           "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/menderman_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "MendermanLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menderman_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/entities/menderman.json"
+        ]
+      }
     }
   ],
   "variable_elements": [

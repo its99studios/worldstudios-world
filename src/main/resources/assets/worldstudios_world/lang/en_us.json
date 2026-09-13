@@ -1133,5 +1133,7 @@
   "subtitles.void_block.short": "",
   "item.worldstudios_world.void_block": "Void Block",
   "item.worldstudios_world.halfstone": "Halfstone",
-  "biome.worldstudios_world.halflands": "Halflands"
+  "biome.worldstudios_world.halflands": "Halflands",
+  "entity.worldstudios_world.menderman": "Menderman",
+  "item.worldstudios_world.menderman_spawn_egg": "Menderman Spawn Egg"
 }
