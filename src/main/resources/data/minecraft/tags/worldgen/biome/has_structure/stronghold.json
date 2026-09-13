@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:halflands",
     "worldstudios_world:darkened_sands"
   ]
 }

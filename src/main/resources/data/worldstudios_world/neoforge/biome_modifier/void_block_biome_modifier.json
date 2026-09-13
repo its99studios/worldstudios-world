@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:halflands",
+  "features": "worldstudios_world:void_block",
+  "step": "underground_ores"
+}

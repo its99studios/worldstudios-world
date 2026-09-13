@@ -30,7 +30,7 @@ public abstract class ChorusPlantBlockMixin extends PipeBlock {
 	@Inject(method = "canSurvive", at = @At("HEAD"), cancellable = true)
 	private void canSurvive(BlockState state, LevelReader world, BlockPos pos, CallbackInfoReturnable<Boolean> info) {
 		BlockState blockstate = world.getBlockState(pos.below());
-		if (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(Blocks.END_STONE)) {
+		if (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(WorldstudiosWorldModBlocks.HALFSTONE.get()) || blockstate.is(Blocks.END_STONE)) {
 			info.setReturnValue(true);
 		}
 	}
@@ -41,7 +41,8 @@ public abstract class ChorusPlantBlockMixin extends PipeBlock {
 		Level world = ctx.getLevel();
 		BlockState plant = info.getReturnValue();
 		BlockState blockstate = world.getBlockState(pos.below());
-		if (ctx.canPlace() && (plant.is(Blocks.CHORUS_PLANT) || plant.is(Blocks.CHORUS_FLOWER)) && (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(Blocks.END_STONE))) {
+		if (ctx.canPlace() && (plant.is(Blocks.CHORUS_PLANT) || plant.is(Blocks.CHORUS_FLOWER))
+				&& (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(WorldstudiosWorldModBlocks.HALFSTONE.get()) || blockstate.is(Blocks.END_STONE))) {
 			info.setReturnValue(plant.setValue(BlockStateProperties.DOWN, true));
 		}
 	}
@@ -50,7 +51,7 @@ public abstract class ChorusPlantBlockMixin extends PipeBlock {
 	private static void getStateWithConnections(BlockGetter p_51711_, BlockPos p_51712_, BlockState p_304771_, CallbackInfoReturnable<BlockState> cir) {
 		BlockState blockstate = p_51711_.getBlockState(p_51712_.below());
 		Block block = p_304771_.getBlock();
-		boolean flag = blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(block) || blockstate.is(Blocks.CHORUS_FLOWER) || blockstate.is(Blocks.END_STONE);
+		boolean flag = blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(WorldstudiosWorldModBlocks.HALFSTONE.get()) || blockstate.is(block) || blockstate.is(Blocks.CHORUS_FLOWER) || blockstate.is(Blocks.END_STONE);
 		if (flag) {
 			BlockState blockstate1 = p_51711_.getBlockState(p_51712_.above());
 			BlockState blockstate2 = p_51711_.getBlockState(p_51712_.north());

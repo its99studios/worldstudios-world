@@ -1132,5 +1132,6 @@
   "subtitles.void_block.idle": "",
   "subtitles.void_block.short": "",
   "item.worldstudios_world.void_block": "Void Block",
-  "item.worldstudios_world.halfstone": "Halfstone"
+  "item.worldstudios_world.halfstone": "Halfstone",
+  "biome.worldstudios_world.halflands": "Halflands"
 }

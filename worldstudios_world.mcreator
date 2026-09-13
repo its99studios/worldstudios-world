@@ -12224,9 +12224,12 @@
         "files": [
           "src/main/java/net/mcreator/worldstudiosworld/block/VoidBlockBlock.java",
           "src/main/resources/data/worldstudios_world/loot_table/blocks/void_block.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/void_block_biome_modifier.json",
           "src/main/resources/assets/worldstudios_world/models/item/void_block.json",
           "src/main/resources/assets/worldstudios_world/items/void_block.json",
           "src/main/resources/assets/worldstudios_world/blockstates/void_block.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/void_block.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/void_block.json",
           "src/main/resources/assets/worldstudios_world/models/block/void_block.json"
         ]
       }
@@ -12261,6 +12264,16 @@
           "src/main/resources/data/worldstudios_world/worldgen/biome/halflands.json",
           "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/HalflandsFruitDecorator.java"
         ]
+      }
+    },
+    {
+      "name": "HalfstoneEndstone",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halfstone_endstone",
+      "metadata": {
+        "files": []
       }
     }
   ],

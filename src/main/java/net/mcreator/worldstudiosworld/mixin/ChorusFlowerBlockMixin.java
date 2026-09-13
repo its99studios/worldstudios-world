@@ -23,7 +23,7 @@ public abstract class ChorusFlowerBlockMixin extends Block {
 	@Inject(method = "canSurvive", at = @At("HEAD"), cancellable = true)
 	private void canSurvive(BlockState state, LevelReader world, BlockPos pos, CallbackInfoReturnable<Boolean> info) {
 		BlockState blockstate = world.getBlockState(pos.below());
-		if (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get())) {
+		if (blockstate.is(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get()) || blockstate.is(WorldstudiosWorldModBlocks.HALFSTONE.get())) {
 			info.setReturnValue(true);
 		}
 	}
