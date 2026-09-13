@@ -391,6 +391,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_INGOT.get());
 			tabData.accept(WorldstudiosWorldModItems.IRON_UPGRADE_SMITHING_TEMPLATE.get());
 			tabData.accept(WorldstudiosWorldModItems.RAW_NEZIUM.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.MOLDELER.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.IGNYITE.get().asItem());

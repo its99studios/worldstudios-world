@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:RawNezium"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 200.0,
+    "cookingTime": 410,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "CUSTOM:RawNezium",
+    "blastingReturnStack": "CUSTOM:NeziumIngot",
+    "name": "nezium_ingot_recipe",
+    "namespace": "mod"
+  }
+}

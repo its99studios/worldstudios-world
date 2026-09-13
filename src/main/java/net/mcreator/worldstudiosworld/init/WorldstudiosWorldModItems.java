@@ -394,6 +394,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> TRASH_BRUTE_SPAWN_EGG;
 	public static final DeferredItem<Item> END_NEZIUM_ORE;
 	public static final DeferredItem<Item> RAW_NEZIUM;
+	public static final DeferredItem<Item> NEZIUM_INGOT;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -765,6 +766,7 @@ public class WorldstudiosWorldModItems {
 		TRASH_BRUTE_SPAWN_EGG = register("trash_brute_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.TRASH_BRUTE.get())));
 		END_NEZIUM_ORE = block(WorldstudiosWorldModBlocks.END_NEZIUM_ORE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		RAW_NEZIUM = register("raw_nezium", RawNeziumItem::new);
+		NEZIUM_INGOT = register("nezium_ingot", NeziumIngotItem::new);
 	}
 
 	// Start of user code block custom items

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 200,
+  "cookingtime": 410,
+  "ingredient": "worldstudios_world:raw_nezium",
+  "result": {
+    "id": "worldstudios_world:nezium_ingot"
+  }
+}

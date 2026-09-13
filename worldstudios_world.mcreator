@@ -11892,6 +11892,33 @@
           "src/main/java/net/mcreator/worldstudiosworld/item/RawNeziumItem.java"
         ]
       }
+    },
+    {
+      "name": "NeziumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_ingot.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_ingot.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeziumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_ingot_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_ingot_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12826,6 +12853,7 @@
       "~NetherWastes@CUSTOM:NetherWastes"
     ],
     "ITEMS:minecraft:piglin_loved": [
+      "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
     ]
   },
@@ -13948,7 +13976,8 @@
       "entity.worldstudios_world.trash_brute": "Trash Brute",
       "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg",
       "item.worldstudios_world.end_nezium_ore": "End Nezium Ore",
-      "item.worldstudios_world.raw_nezium": "Raw Nezium"
+      "item.worldstudios_world.raw_nezium": "Raw Nezium",
+      "item.worldstudios_world.nezium_ingot": "Nezium Ingot"
     }
   },
   "metadata": {

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:nezium_ingot",
     "worldstudios_world:raw_nezium"
   ]
 }
