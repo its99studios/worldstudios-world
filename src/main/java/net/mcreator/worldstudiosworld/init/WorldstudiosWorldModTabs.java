@@ -361,6 +361,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.TRASHERRACK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.VOIDED_END_STONE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.HALFSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());
@@ -438,6 +439,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.TRASH_BRUTE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CHEAP_POINT.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.VOID_BLOCK.get().asItem());
 		}
 	}
 }

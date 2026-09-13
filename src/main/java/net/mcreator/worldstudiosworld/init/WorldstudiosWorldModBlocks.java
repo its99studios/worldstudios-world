@@ -134,6 +134,8 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> TRASHERRACK;
 	public static final DeferredBlock<Block> END_NEZIUM_ORE;
 	public static final DeferredBlock<Block> VOIDED_END_STONE;
+	public static final DeferredBlock<Block> VOID_BLOCK;
+	public static final DeferredBlock<Block> HALFSTONE;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -245,6 +247,8 @@ public class WorldstudiosWorldModBlocks {
 		TRASHERRACK = register("trasherrack", TrasherrackBlock::new);
 		END_NEZIUM_ORE = register("end_nezium_ore", EndNeziumOreBlock::new);
 		VOIDED_END_STONE = register("voided_end_stone", VoidedEndStoneBlock::new);
+		VOID_BLOCK = register("void_block", VoidBlockBlock::new);
+		HALFSTONE = register("halfstone", HalfstoneBlock::new);
 	}
 
 	// Start of user code block custom blocks

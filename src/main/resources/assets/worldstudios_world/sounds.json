@@ -6,5 +6,21 @@
         "stream": false
       }
     ]
+  },
+  "void_block.idle": {
+    "sounds": [
+      {
+        "name": "worldstudios_world:void_block",
+        "stream": false
+      }
+    ]
+  },
+  "void_block.short": {
+    "sounds": [
+      {
+        "name": "worldstudios_world:void_block2",
+        "stream": false
+      }
+    ]
   }
 }

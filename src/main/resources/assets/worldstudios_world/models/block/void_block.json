@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/void_block",
+    "up": "worldstudios_world:block/void_block",
+    "north": "worldstudios_world:block/void_block",
+    "east": "worldstudios_world:block/void_block",
+    "south": "worldstudios_world:block/void_block",
+    "west": "worldstudios_world:block/void_block",
+    "particle": "worldstudios_world:block/void_block"
+  }
+}

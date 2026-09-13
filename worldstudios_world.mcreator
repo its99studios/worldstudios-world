@@ -12213,6 +12213,40 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VoidBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/VoidBlockBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/void_block.json",
+          "src/main/resources/assets/worldstudios_world/models/item/void_block.json",
+          "src/main/resources/assets/worldstudios_world/items/void_block.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/void_block.json",
+          "src/main/resources/assets/worldstudios_world/models/block/void_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Halfstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halfstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/halfstone.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/HalfstoneBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/halfstone.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/halfstone.json",
+          "src/main/resources/assets/worldstudios_world/models/item/halfstone.json",
+          "src/main/resources/assets/worldstudios_world/models/block/halfstone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12230,6 +12264,22 @@
         "glitter"
       ],
       "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "void_block.idle",
+      "files": [
+        "void_block"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "void_block.short",
+      "files": [
+        "void_block2"
+      ],
+      "category": "block",
       "subtitle": ""
     }
   ],
@@ -12857,6 +12907,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~VoidBlock@CUSTOM:VoidBlock",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~Trasherrack@CUSTOM:Trasherrack",
@@ -12884,6 +12935,7 @@
       "~UrainiumChunk@CUSTOM:UrainiumChunk"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~VoidBlock@CUSTOM:VoidBlock",
       "~IgnightiumBlock@CUSTOM:IgnightiumBlock",
       "~IgnightiumOre@CUSTOM:IgnightiumOre",
       "~FrozenGravite@CUSTOM:FrozenGravite",
@@ -14316,7 +14368,11 @@
       "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
       "item.worldstudios_world.nezium_lunge": "Nezium Lunge",
       "item.worldstudios_world.voided_end_stone": "Voided End Stone",
-      "biome.worldstudios_world.voidlands": "Voidlands"
+      "biome.worldstudios_world.voidlands": "Voidlands",
+      "subtitles.void_block.idle": "",
+      "subtitles.void_block.short": "",
+      "item.worldstudios_world.void_block": "Void Block",
+      "item.worldstudios_world.halfstone": "Halfstone"
     }
   },
   "metadata": {

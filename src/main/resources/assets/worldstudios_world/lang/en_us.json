@@ -1128,5 +1128,9 @@
   "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
   "item.worldstudios_world.nezium_lunge": "Nezium Lunge",
   "item.worldstudios_world.voided_end_stone": "Voided End Stone",
-  "biome.worldstudios_world.voidlands": "Voidlands"
+  "biome.worldstudios_world.voidlands": "Voidlands",
+  "subtitles.void_block.idle": "",
+  "subtitles.void_block.short": "",
+  "item.worldstudios_world.void_block": "Void Block",
+  "item.worldstudios_world.halfstone": "Halfstone"
 }
