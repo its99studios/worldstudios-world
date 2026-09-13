@@ -12275,6 +12275,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VoidedEndStoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voided_end_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/voided_end_stone_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/voided_end_stone_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12935,8 +12948,8 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~VoidBlock@CUSTOM:VoidBlock",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
+      "~VoidBlock@CUSTOM:VoidBlock",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",

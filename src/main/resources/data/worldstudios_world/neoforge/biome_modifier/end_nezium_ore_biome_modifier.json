@@ -1,6 +1,13 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "worldstudios_world:voidlands",
+  "biomes": [
+    "worldstudios_world:voidlands",
+    "end_barrens",
+    "end_highlands",
+    "end_midlands",
+    "small_end_islands",
+    "the_end"
+  ],
   "features": "worldstudios_world:end_nezium_ore",
   "step": "underground_ores"
 }

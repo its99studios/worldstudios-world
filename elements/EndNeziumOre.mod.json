@@ -123,7 +123,12 @@
     "fluidRestrictions": [],
     "generateFeature": true,
     "restrictionBiomes": [
-      "CUSTOM:Voidlands"
+      "CUSTOM:Voidlands",
+      "end_barrens",
+      "end_highlands",
+      "end_midlands",
+      "small_end_islands",
+      "the_end"
     ],
     "blocksToReplace": [
       "CUSTOM:VoidedEndStone",
