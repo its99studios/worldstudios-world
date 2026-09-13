@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:VoidBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 100.0,
+    "cookingTime": 12000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "CUSTOM:VoidBlock",
+    "blastingReturnStack": "CUSTOM:VoidStick",
+    "name": "void_stick_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:halfstone"
+    },
+    "title": {
+      "translate": "advancements.half_weird.title"
+    },
+    "description": {
+      "translate": "advancements.half_weird.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "half_weird_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "worldstudios_world:halflands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "worldstudios_world:world_studios_big_java_advancements"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 100,
+  "cookingtime": 12000,
+  "ingredient": "worldstudios_world:void_block",
+  "result": {
+    "id": "worldstudios_world:void_stick"
+  }
+}

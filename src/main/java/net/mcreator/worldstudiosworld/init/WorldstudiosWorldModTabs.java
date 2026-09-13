@@ -269,6 +269,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_LEGGINGS.get());
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_BOOTS.get());
+			tabData.accept(WorldstudiosWorldModItems.VOID_STICK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());

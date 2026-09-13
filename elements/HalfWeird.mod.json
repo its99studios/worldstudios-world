@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Half Weird",
+    "achievementDescription": "Discover the Halflands biome.",
+    "achievementIcon": "CUSTOM:Halfstone",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 20,
+    "achievementType": "goal",
+    "parent": "CUSTOM:WorldStudiosBigJavaAdvancements",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Halflands</field></block><shadow type=\"custom_trigger\"></shadow></next></block></xml>"
+  }
+}
