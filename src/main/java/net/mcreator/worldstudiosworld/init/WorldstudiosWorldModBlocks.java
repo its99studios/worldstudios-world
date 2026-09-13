@@ -132,6 +132,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> TALLMOSS;
 	public static final DeferredBlock<Block> CHEAP_POINT;
 	public static final DeferredBlock<Block> TRASHERRACK;
+	public static final DeferredBlock<Block> END_NEZIUM_ORE;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -241,6 +242,7 @@ public class WorldstudiosWorldModBlocks {
 		TALLMOSS = register("tallmoss", TallmossBlock::new);
 		CHEAP_POINT = register("cheap_point", CheapPointBlock::new);
 		TRASHERRACK = register("trasherrack", TrasherrackBlock::new);
+		END_NEZIUM_ORE = register("end_nezium_ore", EndNeziumOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -11861,6 +11861,37 @@
           "src/main/resources/assets/worldstudios_world/models/item/trash_brute_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "EndNeziumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_nezium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/end_nezium_ore.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/end_nezium_ore.json",
+          "src/main/resources/assets/worldstudios_world/models/item/end_nezium_ore.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/EndNeziumOreBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/end_nezium_ore.json",
+          "src/main/resources/assets/worldstudios_world/models/block/end_nezium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawNezium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nezium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/raw_nezium.json",
+          "src/main/resources/assets/worldstudios_world/items/raw_nezium.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/RawNeziumItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12474,6 +12505,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",
       "~Girstone@CUSTOM:Girstone",
@@ -12763,6 +12795,7 @@
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Graystone@CUSTOM:Graystone"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
@@ -12791,6 +12824,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_nether": [
       "~NetherWastes@CUSTOM:NetherWastes"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~RawNezium@CUSTOM:RawNezium"
     ]
   },
   "tab_element_order": {},
@@ -13910,7 +13946,9 @@
       "item.worldstudios_world.trasherrack": "Trasherrack",
       "biome.worldstudios_world.nether_wastes": "Nether Wastes",
       "entity.worldstudios_world.trash_brute": "Trash Brute",
-      "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg"
+      "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg",
+      "item.worldstudios_world.end_nezium_ore": "End Nezium Ore",
+      "item.worldstudios_world.raw_nezium": "Raw Nezium"
     }
   },
   "metadata": {

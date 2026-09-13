@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:end_nezium_ore",
     "worldstudios_world:graystone"
   ]
 }

@@ -349,6 +349,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.TRAVERTINE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.TALLMOSS.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.TRASHERRACK.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());
@@ -389,6 +390,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.GRAYSTONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_INGOT.get());
 			tabData.accept(WorldstudiosWorldModItems.IRON_UPGRADE_SMITHING_TEMPLATE.get());
+			tabData.accept(WorldstudiosWorldModItems.RAW_NEZIUM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.MOLDELER.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.IGNYITE.get().asItem());
