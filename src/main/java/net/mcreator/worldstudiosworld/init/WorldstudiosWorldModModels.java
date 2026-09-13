@@ -26,6 +26,7 @@ public class WorldstudiosWorldModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modeltitan.LAYER_LOCATION, Modeltitan::createBodyLayer);
+		event.registerLayerDefinition(Modelmenderman.LAYER_LOCATION, Modelmenderman::createBodyLayer);
 		event.registerLayerDefinition(Modelradiatedzombie.LAYER_LOCATION, Modelradiatedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modelmasterofthedarkarts.LAYER_LOCATION, Modelmasterofthedarkarts::createBodyLayer);
 		event.registerLayerDefinition(Modelsawping.LAYER_LOCATION, Modelsawping::createBodyLayer);

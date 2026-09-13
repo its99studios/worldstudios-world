@@ -12288,6 +12288,22 @@
           "src/main/resources/data/worldstudios_world/advancement/recipes/voided_end_stone_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Menderman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menderman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/menderman_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/MendermanRenderer.java",
+          "src/main/resources/assets/worldstudios_world/items/menderman_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/MendermanEntity.java",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/menderman_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -14421,7 +14437,9 @@
       "subtitles.void_block.short": "",
       "item.worldstudios_world.void_block": "Void Block",
       "item.worldstudios_world.halfstone": "Halfstone",
-      "biome.worldstudios_world.halflands": "Halflands"
+      "biome.worldstudios_world.halflands": "Halflands",
+      "entity.worldstudios_world.menderman": "Menderman",
+      "item.worldstudios_world.menderman_spawn_egg": "Menderman Spawn Egg"
     }
   },
   "metadata": {

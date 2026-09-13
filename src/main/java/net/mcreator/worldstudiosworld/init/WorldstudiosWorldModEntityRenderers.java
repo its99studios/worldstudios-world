@@ -48,5 +48,6 @@ public class WorldstudiosWorldModEntityRenderers {
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get(), context -> new BoatRenderer(context, WorldstudiosWorldModModels.GIRTREE_CHEST_BOAT_LAYER_LOCATION));
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.WANDERER.get(), WandererRenderer::new);
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.TRASH_BRUTE.get(), TrashBruteRenderer::new);
+		event.registerEntityRenderer(WorldstudiosWorldModEntities.MENDERMAN.get(), MendermanRenderer::new);
 	}
 }

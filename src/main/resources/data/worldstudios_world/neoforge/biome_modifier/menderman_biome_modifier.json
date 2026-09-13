@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "worldstudios_world:halflands",
+    "worldstudios_world:voidlands",
+    "end_barrens",
+    "end_highlands",
+    "end_midlands",
+    "small_end_islands",
+    "the_end"
+  ],
+  "spawners": {
+    "type": "worldstudios_world:menderman",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 8
+  }
+}
