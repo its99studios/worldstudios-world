@@ -12155,6 +12155,16 @@
           "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_lunge_recipe.json"
         ]
       }
+    },
+    {
+      "name": "EndNeziumEndStone",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_nezium_end_stone",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -14266,6 +14276,8 @@
       "src/main/java/net/mcreator/worldstudiosworld/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModBiomes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModWoodTypes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusFlowerBlockMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusPlantBlockMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluids.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluidTypes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModMenus.java",
