@@ -15,8 +15,9 @@ public class WorldstudiosWorldModEndBiomes {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
-			TheEndBiomes.addHighlandsBiome(ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), 1d);
-			TheEndBiomes.addMidlandsBiome(ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), 1d);
+			TheEndBiomes.addHighlandsBiome(ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), 2d);
+			TheEndBiomes.addMidlandsBiome(ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), 2d);
+			TheEndBiomes.addBarrensBiome(ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), ResourceKey.create(Registries.BIOME, Identifier.parse("worldstudios_world:voidlands")), 1d);
 		});
 	}
 }

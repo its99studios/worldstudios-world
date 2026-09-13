@@ -11,7 +11,14 @@
     "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "enderman",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

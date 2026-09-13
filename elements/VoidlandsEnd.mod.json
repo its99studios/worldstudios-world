@@ -4,10 +4,10 @@
   "definition": {
     "biome": "Voidlands",
     "generationType": "Highlands",
-    "weight": 1.0,
+    "weight": 2.0,
     "midlands": "Voidlands",
-    "barrens": "Vanilla",
-    "midlandsWeight": 1.0,
+    "barrens": "Voidlands",
+    "midlandsWeight": 2.0,
     "barrensWeight": 1.0,
     "mixins": [
       "BiomeSourceMixin",

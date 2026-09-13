@@ -5,7 +5,7 @@
     "name": "Voidlands",
     "groundBlock": "CUSTOM:VoidedEndStone",
     "undergroundBlock": "Blocks.END_STONE",
-    "underwaterBlock": "Blocks.GRAVEL",
+    "underwaterBlock": "CUSTOM:VoidedEndStone",
     "ambientSound": "",
     "additionsSound": "",
     "music": "",
@@ -32,8 +32,8 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": -0.5,
-      "max": 0.0
+      "min": -2.0,
+      "max": 2.0
     },
     "genWeirdness": {
       "min": -1.0,
@@ -72,6 +72,14 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": "EntityEnderman",
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
