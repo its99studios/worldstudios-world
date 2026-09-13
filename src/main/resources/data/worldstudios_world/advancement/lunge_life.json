@@ -224,6 +224,20 @@
           }
         ]
       }
+    },
+    "lunge_life_31": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "worldstudios_world:nezium_lunge",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

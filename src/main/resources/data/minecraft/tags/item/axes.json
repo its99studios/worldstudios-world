@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:nezium_axe",
     "worldstudios_world:granite_axe",
     "worldstudios_world:command_block_axe",
     "worldstudios_world:andesite_axe",

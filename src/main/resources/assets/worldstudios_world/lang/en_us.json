@@ -1116,5 +1116,15 @@
   "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg",
   "item.worldstudios_world.end_nezium_ore": "End Nezium Ore",
   "item.worldstudios_world.raw_nezium": "Raw Nezium",
-  "item.worldstudios_world.nezium_ingot": "Nezium Ingot"
+  "item.worldstudios_world.nezium_ingot": "Nezium Ingot",
+  "item.worldstudios_world.nezium_pickaxe": "Nezium Pickaxe",
+  "item.worldstudios_world.nezium_axe": "Nezium Axe",
+  "item.worldstudios_world.nezium_sword": "Nezium Sword",
+  "item.worldstudios_world.nezium_shovel": "Nezium Shovel",
+  "item.worldstudios_world.nezium_hoe": "Nezium Hoe",
+  "item.worldstudios_world.nezium_armor_leggings": "Nezium Leggings",
+  "item.worldstudios_world.nezium_armor_helmet": "Nezium Helmet",
+  "item.worldstudios_world.nezium_armor_chestplate": "Nezium Chestplate",
+  "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
+  "item.worldstudios_world.nezium_lunge": "Nezium Lunge"
 }

@@ -11919,6 +11919,242 @@
           "src/main/resources/data/worldstudios_world/recipe/nezium_ingot_recipe.json"
         ]
       }
+    },
+    {
+      "name": "NeziumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/nezium_pickaxe.json",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_pickaxe.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeziumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_axe.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_axe.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeziumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/nezium_sword.json",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_sword.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeziumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/nezium_shovel.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumShovelItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumHoeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_hoe.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_pickaxe_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/nezium_axe_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_sword_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/nezium_shovel_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_hoe_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/equipment/nezium_armor.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_armor_leggings.json",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/item/NeziumArmorArmor.java",
+          "src/main/resources/assets/worldstudios_world/items/nezium_armor_helmet.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_armor_chestplate.json",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_armor_boots.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumArmorItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_armor_leggings.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_armor_boots.json",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_armor_helmet.json",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/nezium_armor_helmet_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_armor_chestplate_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/nezium_armor_leggings_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_armor_boots_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/nezium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_lunge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/NeziumLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/nezium_lunge.json",
+          "src/main/resources/assets/worldstudios_world/items/nezium_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "NeziumLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nezium_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/nezium_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/nezium_lunge_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12365,6 +12601,8 @@
       "~SteelSythe@CUSTOM:Steel"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~NeziumLunge@CUSTOM:NeziumLunge",
+      "~NeziumPickaxe@CUSTOM:NeziumPickaxe",
       "~WopperLunge@CUSTOM:WopperLunge",
       "~SteelLunge@CUSTOM:SteelLunge",
       "~RepeatingCommandBlockLunge@CUSTOM:RepeatingCommandBlockLunge",
@@ -12413,6 +12651,7 @@
       "~WorldStudios@CUSTOM:WorldStudios"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~NeziumArmor@CUSTOM:NeziumArmor.helmet",
       "~WopperArmor@CUSTOM:WopperArmor.helmet",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.helmet",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.helmet",
@@ -12458,6 +12697,7 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~NeziumArmor@CUSTOM:NeziumArmor.body",
       "~WopperArmor@CUSTOM:WopperArmor.body",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.body",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.body",
@@ -12481,6 +12721,7 @@
       "~AcidArmor@CUSTOM:AcidArmor.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~NeziumArmor@CUSTOM:NeziumArmor.legs",
       "~WopperArmor@CUSTOM:WopperArmor.legs",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.legs",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.legs",
@@ -12504,6 +12745,7 @@
       "~AcidArmor@CUSTOM:AcidArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~NeziumArmor@CUSTOM:NeziumArmor.boots",
       "~WopperArmor@CUSTOM:WopperArmor.boots",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.boots",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.boots",
@@ -12589,6 +12831,7 @@
       "~Oracle@CUSTOM:FrozenGravite"
     ],
     "ITEMS:minecraft:axes": [
+      "~NeziumAxe@CUSTOM:NeziumAxe",
       "~WopperAxe@CUSTOM:WopperAxe",
       "~SouldustAxe@CUSTOM:SouldustAxe",
       "~AmethesiumAxe@CUSTOM:AmethesiumAxe",
@@ -12610,6 +12853,7 @@
       "~ForgiumMultitool@CUSTOM:ForgiumMultitool"
     ],
     "ITEMS:minecraft:swords": [
+      "~NeziumSword@CUSTOM:NeziumSword",
       "~WopperSword@CUSTOM:WopperSword",
       "~SouldustSword@CUSTOM:SouldustSword",
       "~AmethesiumSword@CUSTOM:AmethesiumSword",
@@ -12720,6 +12964,7 @@
       "~AndorButton@CUSTOM:AndorButton"
     ],
     "ITEMS:minecraft:shovels": [
+      "~NeziumShovel@CUSTOM:NeziumShovel",
       "~WopperShovel@CUSTOM:WopperShovel",
       "~SouldustShovel@CUSTOM:SouldustShovel",
       "~AmethesiumShovel@CUSTOM:AmethesiumShovel",
@@ -12738,6 +12983,7 @@
       "~AndorShovel@CUSTOM:AndorShovel"
     ],
     "ITEMS:minecraft:hoes": [
+      "~NeziumHoe@CUSTOM:NeziumHoe",
       "~SteelSythe@CUSTOM:SteelSythe",
       "~WopperHoe@CUSTOM:WopperHoe",
       "~SouldustHoe@CUSTOM:SouldustHoe",
@@ -12855,6 +13101,27 @@
     "ITEMS:minecraft:piglin_loved": [
       "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
+    ],
+    "ITEMS:worldstudios_world:nezium_pickaxe_repair_items": [
+      "~NeziumPickaxe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_axe_repair_items": [
+      "~NeziumAxe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_sword_repair_items": [
+      "~NeziumSword@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_shovel_repair_items": [
+      "~NeziumShovel@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_hoe_repair_items": [
+      "~NeziumHoe@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_armor_repair_items": [
+      "~NeziumArmor@CUSTOM:NeziumIngot"
+    ],
+    "ITEMS:worldstudios_world:nezium_lunge_repair_items": [
+      "~NeziumLunge@CUSTOM:NeziumIngot"
     ]
   },
   "tab_element_order": {},
@@ -13977,7 +14244,17 @@
       "item.worldstudios_world.trash_brute_spawn_egg": "Trash Brute Spawn Egg",
       "item.worldstudios_world.end_nezium_ore": "End Nezium Ore",
       "item.worldstudios_world.raw_nezium": "Raw Nezium",
-      "item.worldstudios_world.nezium_ingot": "Nezium Ingot"
+      "item.worldstudios_world.nezium_ingot": "Nezium Ingot",
+      "item.worldstudios_world.nezium_pickaxe": "Nezium Pickaxe",
+      "item.worldstudios_world.nezium_axe": "Nezium Axe",
+      "item.worldstudios_world.nezium_sword": "Nezium Sword",
+      "item.worldstudios_world.nezium_shovel": "Nezium Shovel",
+      "item.worldstudios_world.nezium_hoe": "Nezium Hoe",
+      "item.worldstudios_world.nezium_armor_leggings": "Nezium Leggings",
+      "item.worldstudios_world.nezium_armor_helmet": "Nezium Helmet",
+      "item.worldstudios_world.nezium_armor_chestplate": "Nezium Chestplate",
+      "item.worldstudios_world.nezium_armor_boots": "Nezium Boots",
+      "item.worldstudios_world.nezium_lunge": "Nezium Lunge"
     }
   },
   "metadata": {

@@ -395,6 +395,16 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> END_NEZIUM_ORE;
 	public static final DeferredItem<Item> RAW_NEZIUM;
 	public static final DeferredItem<Item> NEZIUM_INGOT;
+	public static final DeferredItem<Item> NEZIUM_PICKAXE;
+	public static final DeferredItem<Item> NEZIUM_AXE;
+	public static final DeferredItem<Item> NEZIUM_SWORD;
+	public static final DeferredItem<Item> NEZIUM_SHOVEL;
+	public static final DeferredItem<Item> NEZIUM_HOE;
+	public static final DeferredItem<Item> NEZIUM_ARMOR_HELMET;
+	public static final DeferredItem<Item> NEZIUM_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> NEZIUM_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> NEZIUM_ARMOR_BOOTS;
+	public static final DeferredItem<Item> NEZIUM_LUNGE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -767,6 +777,16 @@ public class WorldstudiosWorldModItems {
 		END_NEZIUM_ORE = block(WorldstudiosWorldModBlocks.END_NEZIUM_ORE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		RAW_NEZIUM = register("raw_nezium", RawNeziumItem::new);
 		NEZIUM_INGOT = register("nezium_ingot", NeziumIngotItem::new);
+		NEZIUM_PICKAXE = register("nezium_pickaxe", NeziumPickaxeItem::new);
+		NEZIUM_AXE = register("nezium_axe", NeziumAxeItem::new);
+		NEZIUM_SWORD = register("nezium_sword", NeziumSwordItem::new);
+		NEZIUM_SHOVEL = register("nezium_shovel", NeziumShovelItem::new);
+		NEZIUM_HOE = register("nezium_hoe", NeziumHoeItem::new);
+		NEZIUM_ARMOR_HELMET = register("nezium_armor_helmet", NeziumArmorItem.Helmet::new);
+		NEZIUM_ARMOR_CHESTPLATE = register("nezium_armor_chestplate", NeziumArmorItem.Chestplate::new);
+		NEZIUM_ARMOR_LEGGINGS = register("nezium_armor_leggings", NeziumArmorItem.Leggings::new);
+		NEZIUM_ARMOR_BOOTS = register("nezium_armor_boots", NeziumArmorItem.Boots::new);
+		NEZIUM_LUNGE = register("nezium_lunge", NeziumLungeItem::new);
 	}
 
 	// Start of user code block custom items

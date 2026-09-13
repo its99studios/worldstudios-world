@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:NeziumIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:NeziumIngot",
+      "CUSTOM:NeziumIngot",
+      "CUSTOM:NeziumIngot",
+      "CUSTOM:NeziumIngot",
+      "",
+      "CUSTOM:NeziumIngot",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:NeziumArmor.helmet",
+    "name": "nezium_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

@@ -137,6 +137,11 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.STEEL_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.STEEL_SYTHE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_PICKAXE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_AXE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_SHOVEL.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_HOE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_LUNGE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -259,6 +264,11 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.STEEL_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.STEEL_SYTHE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_SWORD.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_HELMET.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());
