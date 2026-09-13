@@ -12247,6 +12247,21 @@
           "src/main/resources/assets/worldstudios_world/models/block/halfstone.json"
         ]
       }
+    },
+    {
+      "name": "Halflands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halflands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/halflands_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/halflands_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/biome/halflands.json",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/HalflandsFruitDecorator.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13208,6 +13223,7 @@
       "~Graystone@CUSTOM:Graystone"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
+      "~Halflands@CUSTOM:Halflands",
       "~DarkenedSands@CUSTOM:DarkenedSands"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
@@ -13234,6 +13250,12 @@
     "ITEMS:minecraft:piglin_loved": [
       "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~Halflands@CUSTOM:Halflands"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~Halflands@CUSTOM:Halflands"
     ]
   },
   "tab_element_order": {},
@@ -14372,7 +14394,8 @@
       "subtitles.void_block.idle": "",
       "subtitles.void_block.short": "",
       "item.worldstudios_world.void_block": "Void Block",
-      "item.worldstudios_world.halfstone": "Halfstone"
+      "item.worldstudios_world.halfstone": "Halfstone",
+      "biome.worldstudios_world.halflands": "Halflands"
     }
   },
   "metadata": {
