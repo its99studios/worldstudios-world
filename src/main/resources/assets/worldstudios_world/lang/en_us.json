@@ -1142,5 +1142,8 @@
   "advancements.i_needsium.descr": "Obtain Raw Nezium.",
   "advancements.i_needsium.title": "I Needsium",
   "advancements.neez_no_more.descr": "Obtain all Nezium tools and armor.",
-  "advancements.neez_no_more.title": "Neez No More"
+  "advancements.neez_no_more.title": "Neez No More",
+  "item.worldstudios_world.darkstone": "Darkstone",
+  "biome.worldstudios_world.the_dark": "The Dark",
+  "item.worldstudios_world.darkened_portal_frame": "Darkened Portal Frame"
 }

@@ -142,6 +142,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_SHOVEL.get());
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_HOE.get());
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.FAR_ENDS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -363,6 +364,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.END_NEZIUM_ORE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.VOIDED_END_STONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.HALFSTONE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.DARKSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());
@@ -414,6 +416,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_HANGING_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CHEAP_POINT.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.DARKENED_PORTAL_FRAME.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULED_REDSTONE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

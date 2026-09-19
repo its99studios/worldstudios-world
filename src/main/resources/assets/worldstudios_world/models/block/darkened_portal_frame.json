@@ -1,0 +1,8 @@
+{
+  "parent": "worldstudios_world:custom/darkened_portal_frame",
+  "textures": {
+    "all": "worldstudios_world:block/darkened_portal_frame",
+    "particle": "worldstudios_world:block/darkened_portal_frame",
+    "0": "worldstudios_world:block/darkened_portal_frame"
+  }
+}

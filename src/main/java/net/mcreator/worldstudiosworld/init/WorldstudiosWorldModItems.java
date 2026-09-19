@@ -410,6 +410,9 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> HALFSTONE;
 	public static final DeferredItem<Item> MENDERMAN_SPAWN_EGG;
 	public static final DeferredItem<Item> VOID_STICK;
+	public static final DeferredItem<Item> DARKSTONE;
+	public static final DeferredItem<Item> DARKENED_PORTAL_FRAME;
+	public static final DeferredItem<Item> FAR_ENDS;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -797,6 +800,9 @@ public class WorldstudiosWorldModItems {
 		HALFSTONE = block(WorldstudiosWorldModBlocks.HALFSTONE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		MENDERMAN_SPAWN_EGG = register("menderman_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.MENDERMAN.get())));
 		VOID_STICK = register("void_stick", VoidStickItem::new);
+		DARKSTONE = block(WorldstudiosWorldModBlocks.DARKSTONE, new Item.Properties().rarity(Rarity.RARE));
+		DARKENED_PORTAL_FRAME = block(WorldstudiosWorldModBlocks.DARKENED_PORTAL_FRAME, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		FAR_ENDS = register("far_ends", FarEndsItem::new);
 	}
 
 	// Start of user code block custom items

@@ -136,6 +136,9 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> VOIDED_END_STONE;
 	public static final DeferredBlock<Block> VOID_BLOCK;
 	public static final DeferredBlock<Block> HALFSTONE;
+	public static final DeferredBlock<Block> DARKSTONE;
+	public static final DeferredBlock<Block> DARKENED_PORTAL_FRAME;
+	public static final DeferredBlock<Block> FAR_ENDS_PORTAL;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -249,6 +252,9 @@ public class WorldstudiosWorldModBlocks {
 		VOIDED_END_STONE = register("voided_end_stone", VoidedEndStoneBlock::new);
 		VOID_BLOCK = register("void_block", VoidBlockBlock::new);
 		HALFSTONE = register("halfstone", HalfstoneBlock::new);
+		DARKSTONE = register("darkstone", DarkstoneBlock::new);
+		DARKENED_PORTAL_FRAME = register("darkened_portal_frame", DarkenedPortalFrameBlock::new);
+		FAR_ENDS_PORTAL = register("far_ends_portal", FarEndsPortalBlock::new);
 	}
 
 	// Start of user code block custom blocks
