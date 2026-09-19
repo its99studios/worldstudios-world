@@ -5,7 +5,15 @@
   "mixins": [
     "NoiseGeneratorSettingsMixin",
     "BiomeSourcePresetMixin",
-    "LevelStorageSourceMixin"
+    "LevelStorageSourceMixin",
+    "ChorusFlowerBlockMixin",
+    "ChorusPlantBlockMixin",
+    "BiomeSourceMixin",
+    "TheEndBiomeSourceMixin",
+    "ClimateSamplerMixin",
+    "NoiseConfigMixin",
+    "ChunkNoiseSamplerMixin",
+    "NoiseGeneratorSettingsAccess"
   ],
   "client": [],
   "injectors": {
