@@ -12480,6 +12480,31 @@
           "src/main/java/net/mcreator/worldstudiosworld/item/FarEndsItem.java"
         ]
       }
+    },
+    {
+      "name": "DarkenedPortalFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_portal_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/darkened_portal_frame_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/darkened_portal_frame_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LitherRefinedFlintAndSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lither_refined_flint_and_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/lither_refined_flint_and_steel_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "worldstudios_world:oracle",
+    "worldstudios_world:refined_flint_and_steel"
+  ],
+  "result": {
+    "id": "worldstudios_world:far_ends",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.STAINED_GLASS#10",
+      "CUSTOM:VoidBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock",
+      "Blocks.STAINED_GLASS#10",
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock",
+      "CUSTOM:VoidBlock"
+    ],
+    "recipeReturnStack": "CUSTOM:DarkenedPortalFrame",
+    "name": "darkened_portal_frame_recipe",
+    "namespace": "mod"
+  }
+}

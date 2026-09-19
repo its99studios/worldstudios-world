@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "worldstudios_world:void_block",
+    "b": "minecraft:purple_stained_glass"
+  },
+  "result": {
+    "id": "worldstudios_world:darkened_portal_frame",
+    "count": 1
+  }
+}
