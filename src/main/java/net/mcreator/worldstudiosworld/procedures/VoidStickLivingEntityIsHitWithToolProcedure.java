@@ -10,7 +10,7 @@ public class VoidStickLivingEntityIsHitWithToolProcedure {
 		{
 			Entity _ent = entity;
 			double _tx = x;
-			double _ty = (y + 255);
+			double _ty = (y + 100);
 			double _tz = z;
 			_ent.teleportTo(_tx, _ty, _tz);
 			if (_ent instanceof ServerPlayer _serverPlayer)
