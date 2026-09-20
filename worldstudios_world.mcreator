@@ -12515,6 +12515,36 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "TeleportToFarEnds",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_far_ends",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/TeleportToFarEndsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FarEndsCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "far_ends_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/command/FarEndsCommandCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
