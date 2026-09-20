@@ -76,6 +76,21 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": "EntityEnderman",
+        "minGroup": 1,
+        "maxGroup": 8,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:Menderman",
+        "minGroup": 1,
+        "maxGroup": 8,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
