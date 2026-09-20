@@ -1,0 +1,11 @@
+{
+  "_fv": 89,
+  "_type": "endstone",
+  "definition": {
+    "block": "CUSTOM:Darkstone",
+    "mixins": [
+      "ChorusFlowerBlockMixin",
+      "ChorusPlantBlockMixin"
+    ]
+  }
+}

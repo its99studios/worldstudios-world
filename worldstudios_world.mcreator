@@ -12505,6 +12505,16 @@
           "src/main/resources/data/worldstudios_world/recipe/lither_refined_flint_and_steel_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DarkstoneEndstone",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone_endstone",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
