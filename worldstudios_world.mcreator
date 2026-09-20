@@ -12545,6 +12545,13 @@
           "src/main/java/net/mcreator/worldstudiosworld/command/FarEndsCommandCommand.java"
         ]
       }
+    },
+    {
+      "name": "Slinker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinker"
     }
   ],
   "variable_elements": [

@@ -413,6 +413,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> DARKSTONE;
 	public static final DeferredItem<Item> DARKENED_PORTAL_FRAME;
 	public static final DeferredItem<Item> FAR_ENDS;
+	public static final DeferredItem<Item> SLINKER_SPAWN_EGG;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -803,6 +804,7 @@ public class WorldstudiosWorldModItems {
 		DARKSTONE = block(WorldstudiosWorldModBlocks.DARKSTONE, new Item.Properties().rarity(Rarity.RARE));
 		DARKENED_PORTAL_FRAME = block(WorldstudiosWorldModBlocks.DARKENED_PORTAL_FRAME, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		FAR_ENDS = register("far_ends", FarEndsItem::new);
+		SLINKER_SPAWN_EGG = register("slinker_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.SLINKER.get())));
 	}
 
 	// Start of user code block custom items

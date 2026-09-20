@@ -49,5 +49,6 @@ public class WorldstudiosWorldModEntityRenderers {
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.WANDERER.get(), WandererRenderer::new);
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.TRASH_BRUTE.get(), TrashBruteRenderer::new);
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.MENDERMAN.get(), MendermanRenderer::new);
+		event.registerEntityRenderer(WorldstudiosWorldModEntities.SLINKER.get(), SlinkerRenderer::new);
 	}
 }

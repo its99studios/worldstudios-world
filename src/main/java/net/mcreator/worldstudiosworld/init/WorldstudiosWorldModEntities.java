@@ -131,6 +131,10 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<MendermanEntity>of(MendermanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.notInPeaceful().sized(0.6f, 2.9375f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SlinkerEntity>> SLINKER = register("slinker",
+			EntityType.Builder.<SlinkerEntity>of(SlinkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.notInPeaceful().sized(1f, 2.375f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -162,6 +166,7 @@ public class WorldstudiosWorldModEntities {
 		WandererEntity.init(event);
 		TrashBruteEntity.init(event);
 		MendermanEntity.init(event);
+		SlinkerEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -188,5 +193,6 @@ public class WorldstudiosWorldModEntities {
 		event.put(WANDERER.get(), WandererEntity.createAttributes().build());
 		event.put(TRASH_BRUTE.get(), TrashBruteEntity.createAttributes().build());
 		event.put(MENDERMAN.get(), MendermanEntity.createAttributes().build());
+		event.put(SLINKER.get(), SlinkerEntity.createAttributes().build());
 	}
 }
