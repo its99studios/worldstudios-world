@@ -432,6 +432,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> CHORUS_HANGING_SIGN;
 	public static final DeferredItem<Item> CHORUS_BOAT;
 	public static final DeferredItem<Item> CHORUS_CHEST_BOAT;
+	public static final DeferredItem<Item> CHORUS_STAFF;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -841,6 +842,7 @@ public class WorldstudiosWorldModItems {
 		CHORUS_HANGING_SIGN = hangingSignBlock(WorldstudiosWorldModBlocks.CHORUS_HANGING_SIGN, WorldstudiosWorldModBlocks.CHORUS_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
 		CHORUS_BOAT = register("chorus_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_BOAT.get(), properties.stacksTo(1)));
 		CHORUS_CHEST_BOAT = register("chorus_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get(), properties.stacksTo(1)));
+		CHORUS_STAFF = register("chorus_staff", ChorusStaffItem::new);
 	}
 
 	// Start of user code block custom items

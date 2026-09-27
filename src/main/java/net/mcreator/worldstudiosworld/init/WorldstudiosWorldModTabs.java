@@ -145,6 +145,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.FAR_ENDS.get());
 			tabData.accept(WorldstudiosWorldModItems.CHORUS_BOAT.get());
 			tabData.accept(WorldstudiosWorldModItems.CHORUS_CHEST_BOAT.get());
+			tabData.accept(WorldstudiosWorldModItems.CHORUS_STAFF.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -273,6 +274,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_LEGGINGS.get());
 			tabData.accept(WorldstudiosWorldModItems.NEZIUM_ARMOR_BOOTS.get());
 			tabData.accept(WorldstudiosWorldModItems.VOID_STICK.get());
+			tabData.accept(WorldstudiosWorldModItems.CHORUS_STAFF.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());

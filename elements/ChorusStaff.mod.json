@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "chorus_staff",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Chorus Staff",
+    "rarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "COMBAT"
+    ],
+    "efficiency": 3.0,
+    "attackSpeed": 0.75,
+    "enchantability": 30,
+    "damageVsEntity": 9.0,
+    "usageCount": 103,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.CHORUS_FRUIT"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

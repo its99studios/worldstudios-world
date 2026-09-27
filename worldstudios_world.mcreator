@@ -13082,6 +13082,20 @@
           "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_chest_boat_recipe.json"
         ]
       }
+    },
+    {
+      "name": "ChorusStaff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/chorus_staff.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/ChorusStaffItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_staff.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13573,6 +13587,7 @@
       "~NeziumLunge@CUSTOM:NeziumIngot"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~ChorusStaff@CUSTOM:ChorusStaff",
       "~IronLunge@CUSTOM:IronLunge",
       "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
       "~StoneLunge@CUSTOM:StoneLunge",
@@ -14131,6 +14146,9 @@
       "CUSTOM:ChorusWood",
       "CUSTOM:StrippedChorusLog",
       "CUSTOM:StrippedChorusWood"
+    ],
+    "ITEMS:worldstudios_world:chorus_staff_repair_items": [
+      "~ChorusStaff@Items.CHORUS_FRUIT"
     ]
   },
   "tab_element_order": {},
@@ -15303,7 +15321,8 @@
       "item.worldstudios_world.chorus_boat": "Chorus Boat",
       "entity.worldstudios_world.chorus_boat": "Chorus Boat",
       "item.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
-      "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest"
+      "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
+      "item.worldstudios_world.chorus_staff": "Chorus Staff"
     }
   },
   "metadata": {
