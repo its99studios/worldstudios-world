@@ -12552,6 +12552,536 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "slinker"
+    },
+    {
+      "name": "ChorusLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_log.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_log.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_log.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_log.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_log.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_wood.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_wood.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusWoodBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_wood.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChorusLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chorus_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/stripped_chorus_log.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/StrippedChorusLogBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/stripped_chorus_log.json",
+          "src/main/resources/assets/worldstudios_world/models/block/stripped_chorus_log.json",
+          "src/main/resources/assets/worldstudios_world/models/item/stripped_chorus_log.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/stripped_chorus_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChorusWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chorus_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/stripped_chorus_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/item/stripped_chorus_wood.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/stripped_chorus_wood.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/StrippedChorusWoodBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/stripped_chorus_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/block/stripped_chorus_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_planks.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_planks.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusPlanksBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/chorus_planks.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_planks.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_leaves.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusLeavesBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_leaves.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_leaves.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_leaves.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_stairs_inner.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_stairs.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_stairs.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_stairs_outer.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_slab_top.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_slab.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_slab.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_slab.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_slab.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusSlabBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_slab_full.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_fence.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_fence.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_inventory.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_post.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_gate_wall_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_gate_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_fence_gate_wall.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusFenceGateBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_door.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_top_left_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_top_right.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_bottom_right.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_door.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusDoorBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_bottom_left.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_bottom_right_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_bottom_left_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_top_left.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_door_top_right_open.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_door.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_door.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_trapdoor.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusTrapdoorBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_trapdoor_top.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_trapdoor_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_trapdoor.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_trapdoor.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_trapdoor.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_pressure_plate.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusPressurePlateBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/chorus_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_pressure_plate_down.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_button_pressed.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_button.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_button.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_button.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_button_inventory.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusButtonBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_button.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_button.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusWallSignBlock.java",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusSignBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_sign.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_sign.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_wall_sign.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusWallHangingSignBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/chorus_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_hanging_sign.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/ChorusHangingSignBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/chorus_wall_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/items/chorus_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/block/chorus_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_boat.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/ChorusBoatEntity.java",
+          "src/main/resources/assets/worldstudios_world/items/chorus_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/chorus_chest_boat.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/ChorusChestBoatEntity.java",
+          "src/main/resources/assets/worldstudios_world/models/item/chorus_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChorusWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_wood_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/chorus_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedChorusWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_chorus_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/stripped_chorus_wood_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/stripped_chorus_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_planks_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/chorus_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_stairs_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_slab_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_fence_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_fence_gate_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_door_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_trapdoor_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_pressure_plate_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_button_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/chorus_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_sign_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_hanging_sign_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/chorus_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_boat_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/chorus_chest_boat_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/chorus_chest_boat_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12895,11 +13425,13 @@
     ],
     "BLOCKS:minecraft:logs_that_burn": [
       "TAG:mod:souldust_logs",
-      "TAG:mod:girtree_logs"
+      "TAG:mod:girtree_logs",
+      "TAG:mod:chorus_logs"
     ],
     "BLOCKS:minecraft:planks": [
       "CUSTOM:SouldustPlanks",
-      "CUSTOM:GirtreePlanks"
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:ChorusPlanks"
     ],
     "ITEMS:mod:souldust_logs": [
       "CUSTOM:SouldustLog",
@@ -12909,11 +13441,13 @@
     ],
     "ITEMS:minecraft:logs_that_burn": [
       "TAG:mod:souldust_logs",
-      "TAG:mod:girtree_logs"
+      "TAG:mod:girtree_logs",
+      "TAG:mod:chorus_logs"
     ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:SouldustPlanks",
-      "CUSTOM:GirtreePlanks"
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:ChorusPlanks"
     ],
     "ITEMS:worldstudios_world:souldust_pickaxe_repair_items": [
       "~SouldustPickaxe@CUSTOM:SouldustPlanks"
@@ -13330,6 +13864,23 @@
       "~LongZombie@CUSTOM:LongZombie"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~ChorusHangingSign@CUSTOM:ChorusHangingSign",
+      "~ChorusHangingSign@CUSTOM:ChorusHangingSign.wall",
+      "~ChorusSign@CUSTOM:ChorusSign.wall",
+      "~ChorusSign@CUSTOM:ChorusSign",
+      "~ChorusButton@CUSTOM:ChorusButton",
+      "~ChorusPressurePlate@CUSTOM:ChorusPressurePlate",
+      "~ChorusTrapdoor@CUSTOM:ChorusTrapdoor",
+      "~ChorusDoor@CUSTOM:ChorusDoor",
+      "~ChorusFenceGate@CUSTOM:ChorusFenceGate",
+      "~ChorusFence@CUSTOM:ChorusFence",
+      "~ChorusSlab@CUSTOM:ChorusSlab",
+      "~ChorusStairs@CUSTOM:ChorusStairs",
+      "~ChorusPlanks@CUSTOM:ChorusPlanks",
+      "~StrippedChorusWood@CUSTOM:StrippedChorusWood",
+      "~StrippedChorusLog@CUSTOM:StrippedChorusLog",
+      "~ChorusWood@CUSTOM:ChorusWood",
+      "~ChorusLog@CUSTOM:ChorusLog",
       "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign",
       "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign.wall",
       "~GirtreeSign@CUSTOM:GirtreeSign",
@@ -13372,36 +13923,42 @@
       "~AndorWood@CUSTOM:AndorWood"
     ],
     "BLOCKS:minecraft:leaves": [
+      "~ChorusLeaves@CUSTOM:ChorusLeaves",
       "~GirtreeLeaves@CUSTOM:GirtreeLeaves",
       "~SouldustLeaves@CUSTOM:SouldustLeaves",
       "~NacorLeaves@CUSTOM:NacorLeaves",
       "~AndorLeaves@CUSTOM:AndorLeaves"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~ChorusStairs@CUSTOM:ChorusStairs",
       "~GirtreeStairs@CUSTOM:GirtreeStairs",
       "~SouldustStairs@CUSTOM:SouldustStairs",
       "~NacorStairs@CUSTOM:NacorStairs",
       "~AndorStairs@CUSTOM:AndorStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~ChorusSlab@CUSTOM:ChorusSlab",
       "~GirtreeSlab@CUSTOM:GirtreeSlab",
       "~SouldustSlab@CUSTOM:SouldustSlab",
       "~NacorSlab@CUSTOM:NacorSlab",
       "~AndorSlab@CUSTOM:AndorSlab"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~ChorusFence@CUSTOM:ChorusFence",
       "~GirtreeFence@CUSTOM:GirtreeFence",
       "~SouldustFence@CUSTOM:SouldustFence",
       "~NacorFence@CUSTOM:NacorFence",
       "~AndorFence@CUSTOM:AndorFence"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~ChorusPressurePlate@CUSTOM:ChorusPressurePlate",
       "~GirtreePressurePlate@CUSTOM:GirtreePressurePlate",
       "~SouldustPressurePlate@CUSTOM:SouldustPressurePlate",
       "~NacorPressurePlate@CUSTOM:NacorPressurePlate",
       "~AndorPressurePlate@CUSTOM:AndorPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~ChorusButton@CUSTOM:ChorusButton",
       "~GirtreeButton@CUSTOM:GirtreeButton",
       "~SouldustButton@CUSTOM:SouldustButton",
       "~NacorButton@CUSTOM:NacorButton",
@@ -13464,50 +14021,61 @@
       "~BraniteOre@CUSTOM:BraniteOre"
     ],
     "ENTITIES:minecraft:boat": [
+      "~ChorusBoat@CUSTOM:ChorusBoat",
       "~GirtreeBoat@CUSTOM:GirtreeBoat",
       "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
     "ITEMS:minecraft:boats": [
+      "~ChorusBoat@CUSTOM:ChorusBoat",
       "~GirtreeBoat@CUSTOM:GirtreeBoat",
       "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~ChorusLeaves@CUSTOM:ChorusLeaves",
       "~GirtreeLeaves@CUSTOM:GirtreeLeaves",
       "~SouldustLeaves@CUSTOM:SouldustLeaves"
     ],
     "BLOCKS:minecraft:wooden_doors": [
+      "~ChorusDoor@CUSTOM:ChorusDoor",
       "~GirtreeDoor@CUSTOM:GirtreeDoor",
       "~SouldustDoor@CUSTOM:SouldustDoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
+      "~ChorusTrapdoor@CUSTOM:ChorusTrapdoor",
       "~GirtreeTrapdoor@CUSTOM:GirtreeTrapdoor",
       "~SouldustTrapdoor@CUSTOM:SouldustTrapdoor"
     ],
     "BLOCKS:minecraft:standing_signs": [
+      "~ChorusSign@CUSTOM:ChorusSign",
       "~GirtreeSign@CUSTOM:GirtreeSign",
       "~SouldustSign@CUSTOM:SouldustSign"
     ],
     "BLOCKS:minecraft:wall_signs": [
+      "~ChorusSign@CUSTOM:ChorusSign.wall",
       "~GirtreeSign@CUSTOM:GirtreeSign.wall",
       "~SouldustSign@CUSTOM:SouldustSign.wall"
     ],
     "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~ChorusHangingSign@CUSTOM:ChorusHangingSign",
       "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign"
     ],
     "BLOCKS:minecraft:wall_hanging_signs": [
+      "~ChorusHangingSign@CUSTOM:ChorusHangingSign.wall",
       "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign.wall",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign.wall"
     ],
     "ENTITIES:c:boats": [
+      "~ChorusChestBoat@CUSTOM:ChorusChestBoat",
       "~GirtreeChestBoat@CUSTOM:GirtreeChestBoat",
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "ITEMS:minecraft:chest_boats": [
+      "~ChorusChestBoat@CUSTOM:ChorusChestBoat",
       "~GirtreeChestBoat@CUSTOM:GirtreeChestBoat",
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
@@ -13551,6 +14119,18 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~Halflands@CUSTOM:Halflands"
+    ],
+    "BLOCKS:mod:chorus_logs": [
+      "CUSTOM:ChorusLog",
+      "CUSTOM:ChorusWood",
+      "CUSTOM:StrippedChorusLog",
+      "CUSTOM:StrippedChorusWood"
+    ],
+    "ITEMS:mod:chorus_logs": [
+      "CUSTOM:ChorusLog",
+      "CUSTOM:ChorusWood",
+      "CUSTOM:StrippedChorusLog",
+      "CUSTOM:StrippedChorusWood"
     ]
   },
   "tab_element_order": {},
@@ -14703,7 +15283,27 @@
       "item.worldstudios_world.darkstone": "Darkstone",
       "biome.worldstudios_world.the_dark": "The Dark",
       "item.worldstudios_world.darkened_portal_frame": "Darkened Portal Frame",
-      "item.worldstudios_world.far_ends": "Lither, Refined Flint, and Steel"
+      "item.worldstudios_world.far_ends": "Lither, Refined Flint, and Steel",
+      "item.worldstudios_world.chorus_log": "Chorus Log",
+      "item.worldstudios_world.chorus_wood": "Chorus Wood",
+      "item.worldstudios_world.stripped_chorus_log": "Stripped Chorus Log",
+      "item.worldstudios_world.stripped_chorus_wood": "Stripped Chorus Wood",
+      "item.worldstudios_world.chorus_planks": "Chorus Planks",
+      "item.worldstudios_world.chorus_leaves": "Chorus Leaves",
+      "item.worldstudios_world.chorus_stairs": "Chorus Stairs",
+      "item.worldstudios_world.chorus_slab": "Chorus Slab",
+      "item.worldstudios_world.chorus_fence": "Chorus Fence",
+      "item.worldstudios_world.chorus_fence_gate": "Chorus Fence Gate",
+      "item.worldstudios_world.chorus_door": "Chorus Door",
+      "item.worldstudios_world.chorus_trapdoor": "Chorus Trapdoor",
+      "item.worldstudios_world.chorus_pressure_plate": "Chorus Pressure Plate",
+      "item.worldstudios_world.chorus_button": "Chorus Button",
+      "item.worldstudios_world.chorus_sign": "Chorus Sign",
+      "item.worldstudios_world.chorus_hanging_sign": "Chorus Hanging Sign",
+      "item.worldstudios_world.chorus_boat": "Chorus Boat",
+      "entity.worldstudios_world.chorus_boat": "Chorus Boat",
+      "item.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
+      "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest"
     }
   },
   "metadata": {

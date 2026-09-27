@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:stripped_chorus_log",
+    "worldstudios_world:chorus_wood",
+    "worldstudios_world:chorus_log",
+    "worldstudios_world:stripped_chorus_wood"
+  ]
+}

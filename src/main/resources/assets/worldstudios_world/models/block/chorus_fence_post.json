@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "worldstudios_world:block/chorus_planks",
+    "particle": "worldstudios_world:block/chorus_planks"
+  }
+}

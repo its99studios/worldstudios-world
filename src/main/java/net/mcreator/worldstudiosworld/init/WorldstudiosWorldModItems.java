@@ -414,6 +414,24 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> DARKENED_PORTAL_FRAME;
 	public static final DeferredItem<Item> FAR_ENDS;
 	public static final DeferredItem<Item> SLINKER_SPAWN_EGG;
+	public static final DeferredItem<Item> CHORUS_LOG;
+	public static final DeferredItem<Item> CHORUS_WOOD;
+	public static final DeferredItem<Item> STRIPPED_CHORUS_LOG;
+	public static final DeferredItem<Item> STRIPPED_CHORUS_WOOD;
+	public static final DeferredItem<Item> CHORUS_PLANKS;
+	public static final DeferredItem<Item> CHORUS_LEAVES;
+	public static final DeferredItem<Item> CHORUS_STAIRS;
+	public static final DeferredItem<Item> CHORUS_SLAB;
+	public static final DeferredItem<Item> CHORUS_FENCE;
+	public static final DeferredItem<Item> CHORUS_FENCE_GATE;
+	public static final DeferredItem<Item> CHORUS_DOOR;
+	public static final DeferredItem<Item> CHORUS_TRAPDOOR;
+	public static final DeferredItem<Item> CHORUS_PRESSURE_PLATE;
+	public static final DeferredItem<Item> CHORUS_BUTTON;
+	public static final DeferredItem<Item> CHORUS_SIGN;
+	public static final DeferredItem<Item> CHORUS_HANGING_SIGN;
+	public static final DeferredItem<Item> CHORUS_BOAT;
+	public static final DeferredItem<Item> CHORUS_CHEST_BOAT;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -805,6 +823,24 @@ public class WorldstudiosWorldModItems {
 		DARKENED_PORTAL_FRAME = block(WorldstudiosWorldModBlocks.DARKENED_PORTAL_FRAME, new Item.Properties().rarity(Rarity.RARE).fireResistant());
 		FAR_ENDS = register("far_ends", FarEndsItem::new);
 		SLINKER_SPAWN_EGG = register("slinker_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.SLINKER.get())));
+		CHORUS_LOG = block(WorldstudiosWorldModBlocks.CHORUS_LOG);
+		CHORUS_WOOD = block(WorldstudiosWorldModBlocks.CHORUS_WOOD);
+		STRIPPED_CHORUS_LOG = block(WorldstudiosWorldModBlocks.STRIPPED_CHORUS_LOG);
+		STRIPPED_CHORUS_WOOD = block(WorldstudiosWorldModBlocks.STRIPPED_CHORUS_WOOD);
+		CHORUS_PLANKS = block(WorldstudiosWorldModBlocks.CHORUS_PLANKS);
+		CHORUS_LEAVES = block(WorldstudiosWorldModBlocks.CHORUS_LEAVES);
+		CHORUS_STAIRS = block(WorldstudiosWorldModBlocks.CHORUS_STAIRS);
+		CHORUS_SLAB = block(WorldstudiosWorldModBlocks.CHORUS_SLAB);
+		CHORUS_FENCE = block(WorldstudiosWorldModBlocks.CHORUS_FENCE);
+		CHORUS_FENCE_GATE = block(WorldstudiosWorldModBlocks.CHORUS_FENCE_GATE);
+		CHORUS_DOOR = doubleBlock(WorldstudiosWorldModBlocks.CHORUS_DOOR);
+		CHORUS_TRAPDOOR = block(WorldstudiosWorldModBlocks.CHORUS_TRAPDOOR);
+		CHORUS_PRESSURE_PLATE = block(WorldstudiosWorldModBlocks.CHORUS_PRESSURE_PLATE);
+		CHORUS_BUTTON = block(WorldstudiosWorldModBlocks.CHORUS_BUTTON);
+		CHORUS_SIGN = signBlock(WorldstudiosWorldModBlocks.CHORUS_SIGN, WorldstudiosWorldModBlocks.CHORUS_WALL_SIGN, new Item.Properties().stacksTo(16));
+		CHORUS_HANGING_SIGN = hangingSignBlock(WorldstudiosWorldModBlocks.CHORUS_HANGING_SIGN, WorldstudiosWorldModBlocks.CHORUS_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
+		CHORUS_BOAT = register("chorus_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_BOAT.get(), properties.stacksTo(1)));
+		CHORUS_CHEST_BOAT = register("chorus_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get(), properties.stacksTo(1)));
 	}
 
 	// Start of user code block custom items

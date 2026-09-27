@@ -21,6 +21,8 @@ public class WorldstudiosWorldModDispenseBehaviors {
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.DIRT_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.DIRT_BOAT.get()));
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.GIRTREE_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.GIRTREE_BOAT.get()));
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.GIRTREE_CHEST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get()));
+			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.CHORUS_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.CHORUS_BOAT.get()));
+			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.CHORUS_CHEST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get()));
 		});
 	}
 }

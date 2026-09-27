@@ -5,6 +5,9 @@
     },
     "worldstudios_world:girtree_leaves": {
       "chance": 0.3
+    },
+    "worldstudios_world:chorus_leaves": {
+      "chance": 0.3
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_pressure_plate",
+    "unlockingItems": [
+      "CUSTOM:ChorusPlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:ChorusPlanks",
+      "CUSTOM:ChorusPlanks",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ChorusPressurePlate",
+    "name": "chorus_pressure_plate_recipe",
+    "namespace": "mod"
+  }
+}

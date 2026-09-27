@@ -139,6 +139,24 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> DARKSTONE;
 	public static final DeferredBlock<Block> DARKENED_PORTAL_FRAME;
 	public static final DeferredBlock<Block> FAR_ENDS_PORTAL;
+	public static final DeferredBlock<Block> CHORUS_LOG;
+	public static final DeferredBlock<Block> CHORUS_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_CHORUS_LOG;
+	public static final DeferredBlock<Block> STRIPPED_CHORUS_WOOD;
+	public static final DeferredBlock<Block> CHORUS_PLANKS;
+	public static final DeferredBlock<Block> CHORUS_LEAVES;
+	public static final DeferredBlock<Block> CHORUS_STAIRS;
+	public static final DeferredBlock<Block> CHORUS_SLAB;
+	public static final DeferredBlock<Block> CHORUS_FENCE;
+	public static final DeferredBlock<Block> CHORUS_FENCE_GATE;
+	public static final DeferredBlock<Block> CHORUS_DOOR;
+	public static final DeferredBlock<Block> CHORUS_TRAPDOOR;
+	public static final DeferredBlock<Block> CHORUS_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> CHORUS_BUTTON;
+	public static final DeferredBlock<Block> CHORUS_SIGN;
+	public static final DeferredBlock<Block> CHORUS_WALL_SIGN;
+	public static final DeferredBlock<Block> CHORUS_HANGING_SIGN;
+	public static final DeferredBlock<Block> CHORUS_WALL_HANGING_SIGN;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -255,6 +273,24 @@ public class WorldstudiosWorldModBlocks {
 		DARKSTONE = register("darkstone", DarkstoneBlock::new);
 		DARKENED_PORTAL_FRAME = register("darkened_portal_frame", DarkenedPortalFrameBlock::new);
 		FAR_ENDS_PORTAL = register("far_ends_portal", FarEndsPortalBlock::new);
+		CHORUS_LOG = register("chorus_log", ChorusLogBlock::new);
+		CHORUS_WOOD = register("chorus_wood", ChorusWoodBlock::new);
+		STRIPPED_CHORUS_LOG = register("stripped_chorus_log", StrippedChorusLogBlock::new);
+		STRIPPED_CHORUS_WOOD = register("stripped_chorus_wood", StrippedChorusWoodBlock::new);
+		CHORUS_PLANKS = register("chorus_planks", ChorusPlanksBlock::new);
+		CHORUS_LEAVES = register("chorus_leaves", ChorusLeavesBlock::new);
+		CHORUS_STAIRS = register("chorus_stairs", ChorusStairsBlock::new);
+		CHORUS_SLAB = register("chorus_slab", ChorusSlabBlock::new);
+		CHORUS_FENCE = register("chorus_fence", ChorusFenceBlock::new);
+		CHORUS_FENCE_GATE = register("chorus_fence_gate", ChorusFenceGateBlock::new);
+		CHORUS_DOOR = register("chorus_door", ChorusDoorBlock::new);
+		CHORUS_TRAPDOOR = register("chorus_trapdoor", ChorusTrapdoorBlock::new);
+		CHORUS_PRESSURE_PLATE = register("chorus_pressure_plate", ChorusPressurePlateBlock::new);
+		CHORUS_BUTTON = register("chorus_button", ChorusButtonBlock::new);
+		CHORUS_SIGN = register("chorus_sign", ChorusSignBlock::new);
+		CHORUS_WALL_SIGN = register("chorus_wall_sign", ChorusWallSignBlock::new);
+		CHORUS_HANGING_SIGN = register("chorus_hanging_sign", ChorusHangingSignBlock::new);
+		CHORUS_WALL_HANGING_SIGN = register("chorus_wall_hanging_sign", ChorusWallHangingSignBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -271,6 +307,8 @@ public class WorldstudiosWorldModBlocks {
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE);
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_SIGN_WOOD_TYPE);
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_HANGING_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.CHORUS_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.CHORUS_HANGING_SIGN_WOOD_TYPE);
 		}
 	}
 
@@ -280,5 +318,7 @@ public class WorldstudiosWorldModBlocks {
 		event.modify(BlockEntityType.HANGING_SIGN, SOULDUST_HANGING_SIGN.get(), SOULDUST_WALL_HANGING_SIGN.get());
 		event.modify(BlockEntityType.SIGN, GIRTREE_SIGN.get(), GIRTREE_WALL_SIGN.get());
 		event.modify(BlockEntityType.HANGING_SIGN, GIRTREE_HANGING_SIGN.get(), GIRTREE_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityType.SIGN, CHORUS_SIGN.get(), CHORUS_WALL_SIGN.get());
+		event.modify(BlockEntityType.HANGING_SIGN, CHORUS_HANGING_SIGN.get(), CHORUS_WALL_HANGING_SIGN.get());
 	}
 }

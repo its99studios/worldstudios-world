@@ -135,6 +135,10 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<SlinkerEntity>of(SlinkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.notInPeaceful().sized(1f, 2.375f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ChorusBoatEntity>> CHORUS_BOAT = register("chorus_boat",
+			EntityType.Builder.<ChorusBoatEntity>of(ChorusBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<ChorusChestBoatEntity>> CHORUS_CHEST_BOAT = register("chorus_chest_boat",
+			EntityType.Builder.<ChorusChestBoatEntity>of(ChorusChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

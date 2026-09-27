@@ -8,6 +8,10 @@
     {
       "id": "#worldstudios_world:girtree_logs",
       "required": false
+    },
+    {
+      "id": "#worldstudios_world:chorus_logs",
+      "required": false
     }
   ]
 }

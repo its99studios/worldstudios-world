@@ -22,6 +22,8 @@ public class WorldstudiosWorldModModels {
 	public static final ModelLayerLocation DIRT_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/dirt_boat"), "main");
 	public static final ModelLayerLocation GIRTREE_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/girtree_boat"), "main");
 	public static final ModelLayerLocation GIRTREE_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/girtree_chest_boat"), "main");
+	public static final ModelLayerLocation CHORUS_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/chorus_boat"), "main");
+	public static final ModelLayerLocation CHORUS_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/chorus_chest_boat"), "main");
 
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
@@ -58,5 +60,7 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(DIRT_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(GIRTREE_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(GIRTREE_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
+		event.registerLayerDefinition(CHORUS_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
+		event.registerLayerDefinition(CHORUS_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
 	}
 }
