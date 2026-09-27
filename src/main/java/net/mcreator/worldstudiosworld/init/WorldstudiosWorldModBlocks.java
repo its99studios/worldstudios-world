@@ -157,6 +157,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> CHORUS_WALL_SIGN;
 	public static final DeferredBlock<Block> CHORUS_HANGING_SIGN;
 	public static final DeferredBlock<Block> CHORUS_WALL_HANGING_SIGN;
+	public static final DeferredBlock<Block> VOIDTREE_LOG;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -291,6 +292,7 @@ public class WorldstudiosWorldModBlocks {
 		CHORUS_WALL_SIGN = register("chorus_wall_sign", ChorusWallSignBlock::new);
 		CHORUS_HANGING_SIGN = register("chorus_hanging_sign", ChorusHangingSignBlock::new);
 		CHORUS_WALL_HANGING_SIGN = register("chorus_wall_hanging_sign", ChorusWallHangingSignBlock::new);
+		VOIDTREE_LOG = register("voidtree_log", VoidtreeLogBlock::new);
 	}
 
 	// Start of user code block custom blocks

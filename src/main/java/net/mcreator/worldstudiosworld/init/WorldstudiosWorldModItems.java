@@ -433,6 +433,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> CHORUS_BOAT;
 	public static final DeferredItem<Item> CHORUS_CHEST_BOAT;
 	public static final DeferredItem<Item> CHORUS_STAFF;
+	public static final DeferredItem<Item> VOIDTREE_LOG;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -843,6 +844,7 @@ public class WorldstudiosWorldModItems {
 		CHORUS_BOAT = register("chorus_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_BOAT.get(), properties.stacksTo(1)));
 		CHORUS_CHEST_BOAT = register("chorus_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get(), properties.stacksTo(1)));
 		CHORUS_STAFF = register("chorus_staff", ChorusStaffItem::new);
+		VOIDTREE_LOG = block(WorldstudiosWorldModBlocks.VOIDTREE_LOG, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 	}
 
 	// Start of user code block custom items

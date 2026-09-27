@@ -1,0 +1,54 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "water_color": 4159204
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "additions": {
+        "sound": "block.portal.ambient",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:visual/fog_color": -16777216,
+    "minecraft:visual/water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "worldstudios_world:menderman",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 12
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "worldstudios_world:void_world_tree"
+    ],
+    []
+  ]
+}

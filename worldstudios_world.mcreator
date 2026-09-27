@@ -13145,6 +13145,37 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/ChorusStaffRightclickedProcedure.java"
         ]
       }
+    },
+    {
+      "name": "VoidtreeLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidtree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/voidtree_log.json",
+          "src/main/resources/assets/worldstudios_world/models/block/voidtree_log.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/VoidtreeLogBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/voidtree_log.json",
+          "src/main/resources/assets/worldstudios_world/models/item/voidtree_log.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/voidtree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidWorld",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/void_world_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/void_world_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/biome/void_world.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13929,6 +13960,7 @@
       "~LongZombie@CUSTOM:LongZombie"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~VoidtreeLog@CUSTOM:VoidtreeLog",
       "~ChorusHangingSign@CUSTOM:ChorusHangingSign",
       "~ChorusHangingSign@CUSTOM:ChorusHangingSign.wall",
       "~ChorusSign@CUSTOM:ChorusSign.wall",
@@ -14081,6 +14113,7 @@
       "~MasterOfTheDarkArts@CUSTOM:MasterOfTheDarkArts"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~VoidtreeLog@CUSTOM:VoidtreeLog",
       "~SouldustGravite@CUSTOM:SouldustGravite",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~BraniteOre@CUSTOM:BraniteOre"
@@ -15376,7 +15409,9 @@
       "item.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
       "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
       "item.worldstudios_world.chorus_staff": "Chorus Staff",
-      "enchantment.worldstudios_world.big_shot": "Big Shot"
+      "enchantment.worldstudios_world.big_shot": "Big Shot",
+      "item.worldstudios_world.voidtree_log": "Voidtree Log",
+      "biome.worldstudios_world.void_world": "Void World"
     }
   },
   "metadata": {
