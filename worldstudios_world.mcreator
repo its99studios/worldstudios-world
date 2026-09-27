@@ -13096,6 +13096,56 @@
           "src/main/resources/assets/worldstudios_world/models/item/chorus_staff.json"
         ]
       }
+    },
+    {
+      "name": "Chorus",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/entity/ChorusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BigShot",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/enchantment/big_shot.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusStaffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_staff_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/ChorusStaffRightclickedProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13133,9 +13183,7 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [
-      "~CoalPickaxe@Items.COAL"
-    ],
+    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [],
     "ITEMS:worldstudios_world:ender_helmet_repair_items": [
       "~EnderHelmet@Items.ENDER_EYE"
     ],
@@ -13663,12 +13711,14 @@
       "~EnderHelmet@CUSTOM:EnderHelmet.helmet"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
+      "~BigShot@CUSTOM:BigShot",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dirt@CUSTOM:Dirt",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~BigShot@CUSTOM:BigShot",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
@@ -13677,6 +13727,7 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~BigShot@CUSTOM:BigShot",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
@@ -14149,6 +14200,9 @@
     ],
     "ITEMS:worldstudios_world:chorus_staff_repair_items": [
       "~ChorusStaff@Items.CHORUS_FRUIT"
+    ],
+    "ITEMS:mod:staffs": [
+      "CUSTOM:ChorusStaff"
     ]
   },
   "tab_element_order": {},
@@ -15322,7 +15376,8 @@
       "entity.worldstudios_world.chorus_boat": "Chorus Boat",
       "item.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
       "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
-      "item.worldstudios_world.chorus_staff": "Chorus Staff"
+      "item.worldstudios_world.chorus_staff": "Chorus Staff",
+      "enchantment.worldstudios_world.big_shot": "Big Shot"
     }
   },
   "metadata": {

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.worldstudios_world.big_shot"
+  },
+  "supported_items": "#worldstudios_world:staffs",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}
