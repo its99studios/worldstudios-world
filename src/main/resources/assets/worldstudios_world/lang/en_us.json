@@ -1169,5 +1169,6 @@
   "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
   "item.worldstudios_world.chorus_staff": "Chorus Staff",
   "enchantment.worldstudios_world.big_shot": "Big Shot",
-  "item.worldstudios_world.voidtree_log": "Voidtree Log"
+  "item.worldstudios_world.voidtree_log": "Voidtree Log",
+  "biome.worldstudios_world.void_world": "Void World"
 }
