@@ -1170,5 +1170,7 @@
   "item.worldstudios_world.chorus_staff": "Chorus Staff",
   "enchantment.worldstudios_world.big_shot": "Big Shot",
   "item.worldstudios_world.voidtree_log": "Voidtree Log",
-  "biome.worldstudios_world.void_world": "Void World"
+  "biome.worldstudios_world.void_world": "Void World",
+  "item.worldstudios_world.slinker_spawn_egg": "Slinker Spawn Egg",
+  "entity.worldstudios_world.slinker": "Slinker"
 }

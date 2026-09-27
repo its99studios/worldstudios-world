@@ -12550,7 +12550,16 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slinker"
+      "registry_name": "slinker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/SlinkerRenderer.java",
+          "src/main/resources/assets/worldstudios_world/items/slinker_spawn_egg.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/slinker_biome_modifier.json",
+          "src/main/resources/assets/worldstudios_world/models/item/slinker_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/SlinkerEntity.java"
+        ]
+      }
     },
     {
       "name": "ChorusLog",
@@ -13213,7 +13222,9 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [],
+    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [
+      "~CoalPickaxe@Items.COAL"
+    ],
     "ITEMS:worldstudios_world:ender_helmet_repair_items": [
       "~EnderHelmet@Items.ENDER_EYE"
     ],
@@ -13664,12 +13675,28 @@
     "ITEMS:worldstudios_world:nezium_lunge_repair_items": [
       "~NeziumLunge@CUSTOM:NeziumIngot"
     ],
+    "BLOCKS:mod:chorus_logs": [
+      "CUSTOM:ChorusLog",
+      "CUSTOM:ChorusWood",
+      "CUSTOM:StrippedChorusLog",
+      "CUSTOM:StrippedChorusWood"
+    ],
+    "ITEMS:mod:chorus_logs": [
+      "CUSTOM:ChorusLog",
+      "CUSTOM:ChorusWood",
+      "CUSTOM:StrippedChorusLog",
+      "CUSTOM:StrippedChorusWood"
+    ],
+    "ITEMS:worldstudios_world:chorus_staff_repair_items": [
+      "~ChorusStaff@Items.CHORUS_FRUIT"
+    ],
+    "ITEMS:mod:staffs": [
+      "CUSTOM:ChorusStaff"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~ChorusStaff@CUSTOM:ChorusStaff",
-      "~IronLunge@CUSTOM:IronLunge",
-      "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
-      "~StoneLunge@CUSTOM:StoneLunge",
       "~NeziumLunge@CUSTOM:NeziumLunge",
+      "~NeziumPickaxe@CUSTOM:NeziumPickaxe",
       "~WopperLunge@CUSTOM:WopperLunge",
       "~SteelLunge@CUSTOM:SteelLunge",
       "~RepeatingCommandBlockLunge@CUSTOM:RepeatingCommandBlockLunge",
@@ -13681,11 +13708,13 @@
       "~UrainiumLunge@CUSTOM:UrainiumLunge",
       "~NetheriteLunge@CUSTOM:NetheriteLunge",
       "~DiamondLunge@CUSTOM:DiamondLunge",
-      "~NeziumPickaxe@CUSTOM:NeziumPickaxe",
+      "~IronLunge@CUSTOM:IronLunge",
       "~Repairer@CUSTOM:Repairer",
       "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
+      "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
       "~AmethesiumPickaxe@CUSTOM:AmethesiumPickaxe",
+      "~StoneLunge@CUSTOM:StoneLunge",
       "~BraniteLunge@CUSTOM:BraniteLunge",
       "~RefinedFlintAndSteel@CUSTOM:RefinedFlintAndSteel",
       "~SteelToolPickaxe@CUSTOM:SteelToolPickaxe",
@@ -13844,8 +13873,8 @@
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~Darkstone@CUSTOM:Darkstone",
       "~VoidBlock@CUSTOM:VoidBlock",
-      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
+      "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Trasherrack@CUSTOM:Trasherrack",
       "~Travertine@CUSTOM:Travertine",
       "~Girstone@CUSTOM:Girstone",
@@ -14217,24 +14246,6 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~Halflands@CUSTOM:Halflands"
-    ],
-    "BLOCKS:mod:chorus_logs": [
-      "CUSTOM:ChorusLog",
-      "CUSTOM:ChorusWood",
-      "CUSTOM:StrippedChorusLog",
-      "CUSTOM:StrippedChorusWood"
-    ],
-    "ITEMS:mod:chorus_logs": [
-      "CUSTOM:ChorusLog",
-      "CUSTOM:ChorusWood",
-      "CUSTOM:StrippedChorusLog",
-      "CUSTOM:StrippedChorusWood"
-    ],
-    "ITEMS:worldstudios_world:chorus_staff_repair_items": [
-      "~ChorusStaff@Items.CHORUS_FRUIT"
-    ],
-    "ITEMS:mod:staffs": [
-      "CUSTOM:ChorusStaff"
     ]
   },
   "tab_element_order": {},
@@ -15411,7 +15422,9 @@
       "item.worldstudios_world.chorus_staff": "Chorus Staff",
       "enchantment.worldstudios_world.big_shot": "Big Shot",
       "item.worldstudios_world.voidtree_log": "Voidtree Log",
-      "biome.worldstudios_world.void_world": "Void World"
+      "biome.worldstudios_world.void_world": "Void World",
+      "item.worldstudios_world.slinker_spawn_egg": "Slinker Spawn Egg",
+      "entity.worldstudios_world.slinker": "Slinker"
     }
   },
   "metadata": {

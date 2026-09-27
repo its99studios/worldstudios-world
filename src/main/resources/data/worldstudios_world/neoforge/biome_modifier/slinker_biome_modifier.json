@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:the_dark",
+  "spawners": {
+    "type": "worldstudios_world:slinker",
+    "weight": 10,
+    "minCount": 3,
+    "maxCount": 12
+  }
+}
