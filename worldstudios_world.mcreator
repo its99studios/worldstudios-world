@@ -12435,7 +12435,6 @@
       "registry_name": "the_dark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheDarkFruitDecorator.java",
           "src/main/resources/data/worldstudios_world/worldgen/configured_feature/the_dark_tree.json",
           "src/main/resources/data/worldstudios_world/worldgen/biome/the_dark.json",
           "src/main/resources/data/worldstudios_world/worldgen/placed_feature/the_dark_tree.json"
