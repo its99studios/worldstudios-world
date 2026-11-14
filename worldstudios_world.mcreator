@@ -13185,6 +13185,55 @@
           "src/main/resources/data/worldstudios_world/worldgen/biome/void_world.json"
         ]
       }
+    },
+    {
+      "name": "Corpse",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/CorpseRenderer.java",
+          "src/main/resources/assets/worldstudios_world/models/item/corpse_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/CorpseEntity.java",
+          "src/main/resources/assets/worldstudios_world/items/corpse_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SpawnCorpseOnDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_corpse_on_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/SpawnCorpseOnDeathProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -15424,7 +15473,9 @@
       "item.worldstudios_world.voidtree_log": "Voidtree Log",
       "biome.worldstudios_world.void_world": "Void World",
       "item.worldstudios_world.slinker_spawn_egg": "Slinker Spawn Egg",
-      "entity.worldstudios_world.slinker": "Slinker"
+      "entity.worldstudios_world.slinker": "Slinker",
+      "entity.worldstudios_world.corpse": "Corpse",
+      "item.worldstudios_world.corpse_spawn_egg": "Corpse Spawn Egg"
     }
   },
   "metadata": {

@@ -34,6 +34,7 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(Modelmasterofthedarkarts.LAYER_LOCATION, Modelmasterofthedarkarts::createBodyLayer);
 		event.registerLayerDefinition(Modelsawping.LAYER_LOCATION, Modelsawping::createBodyLayer);
 		event.registerLayerDefinition(Modelobserveer.LAYER_LOCATION, Modelobserveer::createBodyLayer);
+		event.registerLayerDefinition(Modelcorpse.LAYER_LOCATION, Modelcorpse::createBodyLayer);
 		event.registerLayerDefinition(Modelwalking_pig.LAYER_LOCATION, Modelwalking_pig::createBodyLayer);
 		event.registerLayerDefinition(Modelyeti.LAYER_LOCATION, Modelyeti::createBodyLayer);
 		event.registerLayerDefinition(Modelbirdbrain.LAYER_LOCATION, Modelbirdbrain::createBodyLayer);

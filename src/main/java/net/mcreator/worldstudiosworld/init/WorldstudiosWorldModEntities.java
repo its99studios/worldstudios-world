@@ -141,6 +141,10 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<ChorusChestBoatEntity>of(ChorusChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 	public static final DeferredHolder<EntityType<?>, EntityType<ChorusEntity>> CHORUS = register("chorus",
 			EntityType.Builder.<ChorusEntity>of(ChorusEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CorpseEntity>> CORPSE = register("corpse",
+			EntityType.Builder.<CorpseEntity>of(CorpseEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(2048).setUpdateInterval(3).fireImmune()
+
+					.notInPeaceful().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -173,6 +177,7 @@ public class WorldstudiosWorldModEntities {
 		TrashBruteEntity.init(event);
 		MendermanEntity.init(event);
 		SlinkerEntity.init(event);
+		CorpseEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -200,5 +205,6 @@ public class WorldstudiosWorldModEntities {
 		event.put(TRASH_BRUTE.get(), TrashBruteEntity.createAttributes().build());
 		event.put(MENDERMAN.get(), MendermanEntity.createAttributes().build());
 		event.put(SLINKER.get(), SlinkerEntity.createAttributes().build());
+		event.put(CORPSE.get(), CorpseEntity.createAttributes().build());
 	}
 }
