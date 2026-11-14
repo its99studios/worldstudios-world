@@ -6,14 +6,12 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.tags.TagKey;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
@@ -36,7 +34,7 @@ public class SpawnCorpseOnDeathProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.is(TagKey.create(Registries.ENTITY_TYPE, Identifier.parse("minecraft:players")))) {
+		if (entity instanceof Player) {
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = WorldstudiosWorldModEntities.CORPSE.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
 				if (entityToSpawn != null) {

@@ -13,10 +13,12 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
@@ -39,9 +41,15 @@ public class CorpseEntity extends Monster {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, (float) 1));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
+			@Override
+			protected boolean canPerformAttack(LivingEntity entity) {
+				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
+			}
+		});
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(4, new LookAtPlayerGoal(this, Player.class, (float) 1));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 	}
 
 	@Override
