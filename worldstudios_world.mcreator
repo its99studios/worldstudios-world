@@ -14345,8 +14345,8 @@
       "~Graystone@CUSTOM:Graystone"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~TheDark@CUSTOM:TheDark",
       "~Halflands@CUSTOM:Halflands",
+      "~TheDark@CUSTOM:TheDark",
       "~DarkenedSands@CUSTOM:DarkenedSands"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
@@ -14374,15 +14374,15 @@
       "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
     ],
+    "BIOMES:mod:is_far_ends": [
+      "CUSTOM:TheDark",
+      "CUSTOM:VoidWorld"
+    ],
     "BIOMES:minecraft:has_structure/village_plains": [
       "~Halflands@CUSTOM:Halflands"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~Halflands@CUSTOM:Halflands"
-    ],
-    "BIOMES:mod:is_far_ends": [
-      "CUSTOM:TheDark",
-      "CUSTOM:VoidWorld"
     ]
   },
   "tab_element_order": {},

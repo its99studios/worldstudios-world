@@ -46,9 +46,9 @@
     "treesPerChunk": 4,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 11,
-    "treeStem": "Blocks.CHORUS_PLANT",
-    "treeBranch": "Blocks.CHORUS_PLANT",
+    "minHeight": 1,
+    "treeStem": "CUSTOM:ChorusLog",
+    "treeBranch": "CUSTOM:ChorusLeaves",
     "treeVines": "",
     "treeFruits": "Blocks.CHORUS_FLOWER",
     "defaultFeatures": [
