@@ -32,6 +32,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.worldstudiosworld.procedures.CorpseOnEntityTickUpdateProcedure;
+import net.mcreator.worldstudiosworld.procedures.CorpseEntityDiesProcedure;
 
 public class CorpseEntity extends Monster {
 	public CorpseEntity(EntityType<CorpseEntity> type, Level world) {
@@ -115,6 +116,12 @@ public class CorpseEntity extends Monster {
 	@Override
 	public boolean ignoreExplosion(Explosion explosion) {
 		return true;
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		CorpseEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
