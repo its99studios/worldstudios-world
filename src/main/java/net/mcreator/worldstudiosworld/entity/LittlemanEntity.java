@@ -4,8 +4,8 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Endermite;
-import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -21,7 +21,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
-public class LittlemanEntity extends EnderMan {
+public class LittlemanEntity extends Monster {
 	public LittlemanEntity(EntityType<LittlemanEntity> type, Level world) {
 		super(type, world);
 		xpReward = 4;
