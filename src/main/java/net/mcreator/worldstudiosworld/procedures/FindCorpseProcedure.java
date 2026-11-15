@@ -27,7 +27,7 @@ public class FindCorpseProcedure {
 			corpse_distance = ((findEntityInWorldRange(world, CorpseEntity.class, (desired_player.getX()), (desired_player.getY()), (desired_player.getZ()), (DoubleArgumentType.getDouble(arguments, "cube")))).position())
 					.distanceTo((desired_player.position()));
 			if (desired_player instanceof ServerPlayer _player)
-				_player.sendSystemMessage(Component.literal(("Nearest corpse is " + corpse_distance + " blocks away from " + desired_player.getDisplayName().getString())), false);
+				_player.sendSystemMessage(Component.literal(("Nearest corpse is " + Math.round(corpse_distance) + " blocks away from " + desired_player.getDisplayName().getString())), false);
 		} else {
 			if (desired_player instanceof ServerPlayer _player)
 				_player.sendSystemMessage(Component.literal("No corpse found nearby."), false);
