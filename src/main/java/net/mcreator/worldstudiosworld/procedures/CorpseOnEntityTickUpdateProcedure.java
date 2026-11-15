@@ -14,17 +14,19 @@ public class CorpseOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		Entity Owner = null;
-		if (entity.getPersistentData().getStringOr("OwnerUUID", "") != null) {
+		if (!world.isClientSide()) {
 			Owner = world instanceof ServerLevel _level2 ? getEntityFromUUID(_level2, (entity.getPersistentData().getStringOr("OwnerUUID", ""))) : null;
-			if ((entity.position()).distanceTo((Owner.position())) > 96) {
-				{
-					Entity _ent = entity;
-					double _tx = (Owner.getX() + Mth.nextInt(RandomSource.create(), 33, 66));
-					double _ty = (Owner.getY() + Mth.nextInt(RandomSource.create(), 33, 66));
-					double _tz = (Owner.getZ() + Mth.nextInt(RandomSource.create(), 33, 66));
-					_ent.teleportTo(_tx, _ty, _tz);
-					if (_ent instanceof ServerPlayer _serverPlayer)
-						_serverPlayer.connection.teleport(_tx, _ty, _tz, _ent.getYRot(), _ent.getXRot());
+			if (Owner != null) {
+				if ((entity.position()).distanceTo((Owner.position())) > 96) {
+					{
+						Entity _ent = entity;
+						double _tx = (Owner.getX() + Mth.nextInt(RandomSource.create(), 33, 66));
+						double _ty = (Owner.getY());
+						double _tz = (Owner.getZ() + Mth.nextInt(RandomSource.create(), 33, 66));
+						_ent.teleportTo(_tx, _ty, _tz);
+						if (_ent instanceof ServerPlayer _serverPlayer)
+							_serverPlayer.connection.teleport(_tx, _ty, _tz, _ent.getYRot(), _ent.getXRot());
+					}
 				}
 			}
 		}
