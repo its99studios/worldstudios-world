@@ -1,5 +1,6 @@
 package net.mcreator.worldstudiosworld.entity;
 
+import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
 
@@ -20,6 +21,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -119,6 +121,21 @@ public class CorpseEntity extends Monster {
 	public void baseTick() {
 		super.baseTick();
 		CorpseOnEntityTickUpdateProcedure.execute(this.level(), this);
+	}
+
+	@Override
+	public boolean canDrownInFluidType(FluidType type) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		return false;
+	}
+
+	@Override
+	public boolean canBreatheUnderwater() {
+		return !this.canDrownInFluidType(NeoForgeMod.WATER_TYPE.value());
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
