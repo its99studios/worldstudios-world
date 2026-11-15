@@ -95,7 +95,6 @@
     "stepSound": "block.mud.step",
     "raidCelebrationSound": "",
     "entityDataEntries": [],
-    "whenMobDies": "CorpseEntityDies",
     "onMobTickUpdate": "CorpseOnEntityTickUpdate",
     "hasAI": true,
     "aiBase": "(none)",
