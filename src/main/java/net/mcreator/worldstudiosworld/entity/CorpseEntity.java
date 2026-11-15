@@ -120,7 +120,7 @@ public class CorpseEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		CorpseOnEntityTickUpdateProcedure.execute(this.level(), this);
+		CorpseOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

@@ -13248,12 +13248,58 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ],
         "files": [
           "src/main/java/net/mcreator/worldstudiosworld/procedures/CorpseOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FindCorpse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find_corpse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/FindCorpseProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CorpseCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/command/CorpseCommandCommand.java"
         ]
       }
     }

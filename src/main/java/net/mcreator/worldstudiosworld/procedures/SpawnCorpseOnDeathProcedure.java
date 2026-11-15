@@ -35,7 +35,12 @@ public class SpawnCorpseOnDeathProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player) {
-			(world instanceof ServerLevel _level2 ? WorldstudiosWorldModEntities.CORPSE.get().spawn(_level2, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED) : null).getPersistentData().putString("OwnerUUID", (entity.getStringUUID()));
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = WorldstudiosWorldModEntities.CORPSE.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				}
+			}
 			if (entity instanceof ServerPlayer _player)
 				_player.sendSystemMessage(Component.literal("CORPSE HAS SPAWNED."), false);
 		}
