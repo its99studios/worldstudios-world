@@ -22,10 +22,16 @@ public class FindCorpseProcedure {
 		double corpse_distance = 0;
 		Entity desired_player = null;
 		desired_player = commandParameterEntity(arguments, "player");
-		corpse_distance = ((findEntityInWorldRange(world, CorpseEntity.class, (desired_player.getX()), (desired_player.getY()), (desired_player.getZ()), (DoubleArgumentType.getDouble(arguments, "cube")))).position())
-				.distanceTo((desired_player.position()));
-		if (desired_player instanceof ServerPlayer _player)
-			_player.sendSystemMessage(Component.literal(("Nearest corpse is " + corpse_distance + " blocks away from " + desired_player)), false);
+		if (!world.getEntitiesOfClass(CorpseEntity.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3((desired_player.getX()), (desired_player.getY()), (desired_player.getZ()))).inflate((DoubleArgumentType.getDouble(arguments, "cube")) / 2d),
+				e -> true).isEmpty()) {
+			corpse_distance = ((findEntityInWorldRange(world, CorpseEntity.class, (desired_player.getX()), (desired_player.getY()), (desired_player.getZ()), (DoubleArgumentType.getDouble(arguments, "cube")))).position())
+					.distanceTo((desired_player.position()));
+			if (desired_player instanceof ServerPlayer _player)
+				_player.sendSystemMessage(Component.literal(("Nearest corpse is " + corpse_distance + " blocks away from " + desired_player.getDisplayName().getString())), false);
+		} else {
+			if (desired_player instanceof ServerPlayer _player)
+				_player.sendSystemMessage(Component.literal("No corpse found nearby."), false);
+		}
 	}
 
 	private static Entity commandParameterEntity(CommandContext<CommandSourceStack> arguments, String parameter) {

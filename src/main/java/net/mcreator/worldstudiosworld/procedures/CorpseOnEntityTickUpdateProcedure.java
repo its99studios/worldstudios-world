@@ -18,8 +18,10 @@ public class CorpseOnEntityTickUpdateProcedure {
 		if (entity.getPersistentData().getDoubleOr("FollowTimer", 0) >= 5) {
 			entity.getPersistentData().putDouble("FollowTimer", 0);
 			nearest_player = findEntityInWorldRange(world, Player.class, x, y, z, 128);
-			if (entity instanceof Mob _entity)
-				_entity.getNavigation().moveTo((nearest_player.getX()), (nearest_player.getY()), (nearest_player.getZ()), 1);
+			if (nearest_player != null) {
+				if (entity instanceof Mob _entity)
+					_entity.getNavigation().moveTo((nearest_player.getX()), (nearest_player.getY()), (nearest_player.getZ()), 1);
+			}
 		}
 	}
 
