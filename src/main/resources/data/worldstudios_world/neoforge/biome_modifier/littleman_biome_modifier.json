@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "worldstudios_world:halflands",
+    "worldstudios_world:the_dark",
+    "worldstudios_world:void_world"
+  ],
+  "spawners": {
+    "type": "worldstudios_world:littleman",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 7
+  }
+}

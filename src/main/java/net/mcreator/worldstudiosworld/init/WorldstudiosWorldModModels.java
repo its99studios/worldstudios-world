@@ -53,6 +53,7 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(Modeldarkphantom.LAYER_LOCATION, Modeldarkphantom::createBodyLayer);
 		event.registerLayerDefinition(Modelfairy.LAYER_LOCATION, Modelfairy::createBodyLayer);
 		event.registerLayerDefinition(Modelsugar.LAYER_LOCATION, Modelsugar::createBodyLayer);
+		event.registerLayerDefinition(Modellittleman.LAYER_LOCATION, Modellittleman::createBodyLayer);
 		event.registerLayerDefinition(ModelNethering_Trader.LAYER_LOCATION, ModelNethering_Trader::createBodyLayer);
 		event.registerLayerDefinition(Modelwanderer.LAYER_LOCATION, Modelwanderer::createBodyLayer);
 		event.registerLayerDefinition(STEEL_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);

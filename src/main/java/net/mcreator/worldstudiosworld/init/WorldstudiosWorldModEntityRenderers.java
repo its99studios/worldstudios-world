@@ -54,5 +54,6 @@ public class WorldstudiosWorldModEntityRenderers {
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get(), context -> new BoatRenderer(context, WorldstudiosWorldModModels.CHORUS_CHEST_BOAT_LAYER_LOCATION));
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.CHORUS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.CORPSE.get(), CorpseRenderer::new);
+		event.registerEntityRenderer(WorldstudiosWorldModEntities.LITTLEMAN.get(), LittlemanRenderer::new);
 	}
 }

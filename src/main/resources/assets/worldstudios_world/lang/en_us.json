@@ -1174,5 +1174,7 @@
   "item.worldstudios_world.slinker_spawn_egg": "Slinker Spawn Egg",
   "entity.worldstudios_world.slinker": "Slinker",
   "entity.worldstudios_world.corpse": "Corpse",
-  "item.worldstudios_world.corpse_spawn_egg": "Corpse Spawn Egg"
+  "item.worldstudios_world.corpse_spawn_egg": "Corpse Spawn Egg",
+  "entity.worldstudios_world.littleman": "Littleman",
+  "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg"
 }
