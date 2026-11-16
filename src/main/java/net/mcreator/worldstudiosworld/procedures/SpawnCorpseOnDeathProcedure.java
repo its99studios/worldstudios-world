@@ -14,6 +14,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModGameRules;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
 import javax.annotation.Nullable;
@@ -34,7 +35,7 @@ public class SpawnCorpseOnDeathProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player) {
+		if (entity instanceof Player && (world instanceof ServerLevel _serverLevelGR1 && _serverLevelGR1.getGameRules().get(WorldstudiosWorldModGameRules.SPAWN_CORPSES.get())) == true) {
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = WorldstudiosWorldModEntities.CORPSE.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
 				if (entityToSpawn != null) {

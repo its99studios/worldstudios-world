@@ -13318,6 +13318,17 @@
           "src/main/resources/assets/worldstudios_world/items/littleman_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "SpawnCorpses",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_corpses",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -15565,7 +15576,9 @@
       "entity.worldstudios_world.corpse": "Corpse",
       "item.worldstudios_world.corpse_spawn_egg": "Corpse Spawn Egg",
       "entity.worldstudios_world.littleman": "Littleman",
-      "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg"
+      "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg",
+      "gamerule.worldstudios_world.spawn_corpses.description": "Corpeses will spawn after player death.",
+      "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses"
     }
   },
   "metadata": {
