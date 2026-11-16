@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:void_block",
     "worldstudios_world:semite",
     "worldstudios_world:souldust_planks",
     "worldstudios_world:green_sand",
@@ -10,6 +11,7 @@
     "worldstudios_world:frozen_gravite",
     "worldstudios_world:breakable_bedrock",
     "worldstudios_world:gravite",
+    "worldstudios_world:muddy_darkstone",
     "worldstudios_world:yellow_grass_block",
     "worldstudios_world:hevore",
     "worldstudios_world:waste_block",
