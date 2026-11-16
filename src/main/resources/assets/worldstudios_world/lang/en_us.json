@@ -1178,5 +1178,7 @@
   "entity.worldstudios_world.littleman": "Littleman",
   "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg",
   "gamerule.worldstudios_world.spawn_corpses.description": "Corpeses will spawn after player death.",
-  "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses"
+  "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses",
+  "item.worldstudios_world.muddy_darkstone": "Muddy Darkstone",
+  "biome.worldstudios_world.the_lounges": "The Lounges"
 }

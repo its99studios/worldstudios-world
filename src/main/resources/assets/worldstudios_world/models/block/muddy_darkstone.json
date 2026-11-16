@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/darkstone",
+    "up": "worldstudios_world:block/muddy_darkstone_top",
+    "north": "worldstudios_world:block/muddy_darkstone",
+    "east": "worldstudios_world:block/muddy_darkstone",
+    "south": "worldstudios_world:block/muddy_darkstone",
+    "west": "worldstudios_world:block/muddy_darkstone",
+    "particle": "worldstudios_world:block/darkstone"
+  }
+}

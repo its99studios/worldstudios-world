@@ -13329,6 +13329,35 @@
         "type": "logic",
         "files": []
       }
+    },
+    {
+      "name": "MuddyDarkstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_darkstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/muddy_darkstone.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/muddy_darkstone.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/muddy_darkstone.json",
+          "src/main/resources/assets/worldstudios_world/models/block/muddy_darkstone.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/MuddyDarkstoneBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/muddy_darkstone.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLounges",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lounges",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/biome/the_lounges.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -14015,6 +14044,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~MuddyDarkstone@CUSTOM:MuddyDarkstone",
       "~Darkstone@CUSTOM:Darkstone",
       "~VoidBlock@CUSTOM:VoidBlock",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
@@ -14351,6 +14381,7 @@
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~MuddyDarkstone@CUSTOM:MuddyDarkstone",
       "~Darkstone@CUSTOM:Darkstone",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Graystone@CUSTOM:Graystone"
@@ -15578,7 +15609,9 @@
       "entity.worldstudios_world.littleman": "Littleman",
       "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg",
       "gamerule.worldstudios_world.spawn_corpses.description": "Corpeses will spawn after player death.",
-      "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses"
+      "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses",
+      "item.worldstudios_world.muddy_darkstone": "Muddy Darkstone",
+      "biome.worldstudios_world.the_lounges": "The Lounges"
     }
   },
   "metadata": {

@@ -436,6 +436,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> VOIDTREE_LOG;
 	public static final DeferredItem<Item> CORPSE_SPAWN_EGG;
 	public static final DeferredItem<Item> LITTLEMAN_SPAWN_EGG;
+	public static final DeferredItem<Item> MUDDY_DARKSTONE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -849,6 +850,7 @@ public class WorldstudiosWorldModItems {
 		VOIDTREE_LOG = block(WorldstudiosWorldModBlocks.VOIDTREE_LOG, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 		CORPSE_SPAWN_EGG = register("corpse_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.CORPSE.get())));
 		LITTLEMAN_SPAWN_EGG = register("littleman_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.LITTLEMAN.get())));
+		MUDDY_DARKSTONE = block(WorldstudiosWorldModBlocks.MUDDY_DARKSTONE, new Item.Properties().rarity(Rarity.RARE));
 	}
 
 	// Start of user code block custom items
