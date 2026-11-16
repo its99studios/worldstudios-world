@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:the_lounges",
+  "features": "worldstudios_world:chorus_leaf_roof",
+  "step": "top_layer_modification"
+}

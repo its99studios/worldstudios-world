@@ -1,0 +1,12 @@
+{
+  "type": "worldstudios_world:structure_feature",
+  "config": {
+    "structure": "worldstudios_world:chorus_leaf_roof",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      14,
+      0
+    ]
+  }
+}

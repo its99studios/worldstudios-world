@@ -1,0 +1,16 @@
+{
+  "feature": "worldstudios_world:chorus_leaf_roof",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 72
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

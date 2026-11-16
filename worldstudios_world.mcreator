@@ -13355,7 +13355,24 @@
       "registry_name": "the_lounges",
       "metadata": {
         "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/the_lounges_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/the_lounges_tree.json",
           "src/main/resources/data/worldstudios_world/worldgen/biome/the_lounges.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusLeafRoof",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_leaf_roof",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/chorus_leaf_roof.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/chorus_leaf_roof_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/chorus_leaf_roof.json"
         ]
       }
     }
@@ -14090,6 +14107,8 @@
       "~Dirt@CUSTOM:Dirt"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~FarEnds@CUSTOM:MuddyDarkstone",
+      "~FarEnds@CUSTOM:VoidBlock",
       "~FarEnds@CUSTOM:Darkstone",
       "~Skip@Blocks.BEDROCK",
       "~Skip@CUSTOM:BreakableBedrock",
@@ -15637,6 +15656,8 @@
       "src/main/java/net/mcreator/worldstudiosworld/endbiomes/TheEndBiomeData.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusFlowerBlockMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusPlantBlockMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/world/features/StructureFeature.java",
+      "src/main/java/net/mcreator/worldstudiosworld/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluids.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluidTypes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModMenus.java",
