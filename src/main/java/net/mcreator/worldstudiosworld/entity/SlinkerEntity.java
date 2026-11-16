@@ -6,9 +6,11 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -28,7 +30,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
-public class SlinkerEntity extends Monster {
+public class SlinkerEntity extends Monster implements RangedAttackMob {
 	public SlinkerEntity(EntityType<SlinkerEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
@@ -47,6 +49,12 @@ public class SlinkerEntity extends Monster {
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
+			@Override
+			public boolean canContinueToUse() {
+				return this.canUse();
+			}
+		});
 	}
 
 	@Override
@@ -69,6 +77,11 @@ public class SlinkerEntity extends Monster {
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurtServer(level, damagesource, amount);
+	}
+
+	@Override
+	public void performRangedAttack(LivingEntity target, float flval) {
+		ChorusEntity.shoot(this, target);
 	}
 
 	@Override
