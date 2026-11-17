@@ -13236,40 +13236,6 @@
       }
     },
     {
-      "name": "CorpseOnEntityTickUpdate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "corpse_on_entity_tick_update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/worldstudiosworld/procedures/CorpseOnEntityTickUpdateProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "FindCorpse",
       "type": "procedure",
       "compiles": true,

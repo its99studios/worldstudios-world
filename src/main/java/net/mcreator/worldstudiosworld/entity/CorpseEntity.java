@@ -29,8 +29,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.worldstudiosworld.procedures.CorpseOnEntityTickUpdateProcedure;
-
 public class CorpseEntity extends Monster {
 	public CorpseEntity(EntityType<CorpseEntity> type, Level world) {
 		super(type, world);
@@ -114,12 +112,6 @@ public class CorpseEntity extends Monster {
 	@Override
 	public boolean ignoreExplosion(Explosion explosion) {
 		return true;
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		CorpseOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

@@ -25,7 +25,7 @@ public class SetupWorldtestProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(
 					new CommandSourceStack(CommandSource.NULL, new Vec3((player.getX()), (player.getY()), (player.getZ())), Vec2.ZERO, _level, LevelBasedPermissionSet.OWNER, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					("effect give " + player + " minecraft:night_vision infinite"));
+					("effect give " + player.getDisplayName().getString() + " minecraft:night_vision infinite"));
 	}
 
 	private static Entity commandParameterEntity(CommandContext<CommandSourceStack> arguments, String parameter) {
