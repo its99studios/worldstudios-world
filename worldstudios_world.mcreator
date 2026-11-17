@@ -13355,6 +13355,9 @@
       "registry_name": "the_lounges",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesFruitDecorator.java",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesLeaveDecorator.java",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesTrunkDecorator.java",
           "src/main/resources/data/worldstudios_world/worldgen/configured_feature/the_lounges_tree.json",
           "src/main/resources/data/worldstudios_world/worldgen/placed_feature/the_lounges_tree.json",
           "src/main/resources/data/worldstudios_world/worldgen/biome/the_lounges.json"

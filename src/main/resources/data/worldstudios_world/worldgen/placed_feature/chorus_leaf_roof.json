@@ -3,10 +3,7 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 72
-    },
-    {
-      "type": "minecraft:in_square"
+      "count": 100
     },
     {
       "type": "minecraft:heightmap",
