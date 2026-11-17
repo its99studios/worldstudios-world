@@ -13298,6 +13298,20 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/SetupWorldtestProcedure.java"
         ]
       }
+    },
+    {
+      "name": "GrassPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/grass_patch_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/grass_patch.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/grass_patch.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -14326,8 +14340,8 @@
       "~Graystone@CUSTOM:Graystone"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~TheDark@CUSTOM:TheDark",
       "~Halflands@CUSTOM:Halflands",
+      "~TheDark@CUSTOM:TheDark",
       "~DarkenedSands@CUSTOM:DarkenedSands"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
