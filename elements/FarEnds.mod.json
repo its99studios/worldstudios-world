@@ -8,7 +8,7 @@
       "CUSTOM:TheLounges"
     ],
     "biomesInDimensionCaves": [],
-    "worldGenType": "End like gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": "CUSTOM:Darkstone",
     "fluidBlock": "Blocks.VOID_AIR",
     "seaLevel": 0,

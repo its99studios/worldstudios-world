@@ -28,7 +28,7 @@
     "minecraft:gameplay/respawn_anchor_works": false
   },
   "has_skylight": false,
-  "has_ceiling": false,
+  "has_ceiling": true,
   "has_ender_dragon_fight": false,
   "coordinate_scale": 1,
   "ambient_light": 0,
