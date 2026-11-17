@@ -13378,6 +13378,40 @@
           "src/main/resources/data/worldstudios_world/worldgen/placed_feature/chorus_leaf_roof.json"
         ]
       }
+    },
+    {
+      "name": "Worldtest",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldtest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/command/WorldtestCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SetupWorldtest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setup_worldtest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/SetupWorldtestProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [

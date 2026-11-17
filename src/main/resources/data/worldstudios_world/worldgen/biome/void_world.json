@@ -8,12 +8,6 @@
     "water_color": 4159204
   },
   "attributes": {
-    "minecraft:audio/ambient_sounds": {
-      "additions": {
-        "sound": "block.portal.ambient",
-        "tick_chance": 0.0111
-      }
-    },
     "minecraft:visual/fog_color": -16777216,
     "minecraft:visual/water_fog_color": 329011
   },

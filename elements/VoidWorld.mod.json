@@ -11,7 +11,7 @@
       "falpha": 0.0
     },
     "ambientSound": "",
-    "additionsSound": "block.portal.ambient",
+    "additionsSound": "",
     "music": "",
     "moodSound": "",
     "moodSoundDelay": 6000,
