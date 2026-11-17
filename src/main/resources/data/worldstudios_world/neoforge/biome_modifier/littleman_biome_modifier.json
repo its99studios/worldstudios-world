@@ -2,8 +2,7 @@
   "type": "neoforge:add_spawns",
   "biomes": [
     "worldstudios_world:halflands",
-    "worldstudios_world:the_dark",
-    "worldstudios_world:void_world"
+    "worldstudios_world:the_dark"
   ],
   "spawners": {
     "type": "worldstudios_world:littleman",

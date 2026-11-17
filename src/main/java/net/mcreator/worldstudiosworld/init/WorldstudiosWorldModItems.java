@@ -433,10 +433,8 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> CHORUS_BOAT;
 	public static final DeferredItem<Item> CHORUS_CHEST_BOAT;
 	public static final DeferredItem<Item> CHORUS_STAFF;
-	public static final DeferredItem<Item> VOIDTREE_LOG;
 	public static final DeferredItem<Item> CORPSE_SPAWN_EGG;
 	public static final DeferredItem<Item> LITTLEMAN_SPAWN_EGG;
-	public static final DeferredItem<Item> MUDDY_DARKSTONE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -847,10 +845,8 @@ public class WorldstudiosWorldModItems {
 		CHORUS_BOAT = register("chorus_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_BOAT.get(), properties.stacksTo(1)));
 		CHORUS_CHEST_BOAT = register("chorus_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.CHORUS_CHEST_BOAT.get(), properties.stacksTo(1)));
 		CHORUS_STAFF = register("chorus_staff", ChorusStaffItem::new);
-		VOIDTREE_LOG = block(WorldstudiosWorldModBlocks.VOIDTREE_LOG, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 		CORPSE_SPAWN_EGG = register("corpse_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.CORPSE.get())));
 		LITTLEMAN_SPAWN_EGG = register("littleman_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.LITTLEMAN.get())));
-		MUDDY_DARKSTONE = block(WorldstudiosWorldModBlocks.MUDDY_DARKSTONE, new Item.Properties().rarity(Rarity.RARE));
 	}
 
 	// Start of user code block custom items

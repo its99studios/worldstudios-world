@@ -13156,37 +13156,6 @@
       }
     },
     {
-      "name": "VoidtreeLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "voidtree_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/worldstudios_world/items/voidtree_log.json",
-          "src/main/resources/assets/worldstudios_world/models/block/voidtree_log.json",
-          "src/main/java/net/mcreator/worldstudiosworld/block/VoidtreeLogBlock.java",
-          "src/main/resources/data/worldstudios_world/loot_table/blocks/voidtree_log.json",
-          "src/main/resources/assets/worldstudios_world/models/item/voidtree_log.json",
-          "src/main/resources/assets/worldstudios_world/blockstates/voidtree_log.json"
-        ]
-      }
-    },
-    {
-      "name": "VoidWorld",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_world",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/void_world_tree.json",
-          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/void_world_tree.json",
-          "src/main/resources/data/worldstudios_world/worldgen/biome/void_world.json"
-        ]
-      }
-    },
-    {
       "name": "Corpse",
       "type": "livingentity",
       "compiles": true,
@@ -13294,55 +13263,6 @@
       "metadata": {
         "type": "logic",
         "files": []
-      }
-    },
-    {
-      "name": "MuddyDarkstone",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "muddy_darkstone",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/worldstudios_world/models/item/muddy_darkstone.json",
-          "src/main/resources/assets/worldstudios_world/blockstates/muddy_darkstone.json",
-          "src/main/resources/data/worldstudios_world/loot_table/blocks/muddy_darkstone.json",
-          "src/main/resources/assets/worldstudios_world/models/block/muddy_darkstone.json",
-          "src/main/java/net/mcreator/worldstudiosworld/block/MuddyDarkstoneBlock.java",
-          "src/main/resources/assets/worldstudios_world/items/muddy_darkstone.json"
-        ]
-      }
-    },
-    {
-      "name": "TheLounges",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_lounges",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesFruitDecorator.java",
-          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesLeaveDecorator.java",
-          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/TheLoungesTrunkDecorator.java",
-          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/the_lounges_tree.json",
-          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/the_lounges_tree.json",
-          "src/main/resources/data/worldstudios_world/worldgen/biome/the_lounges.json"
-        ]
-      }
-    },
-    {
-      "name": "ChorusLeafRoof",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chorus_leaf_roof",
-      "metadata": {
-        "has_nbt_structure": true,
-        "files": [
-          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/chorus_leaf_roof.json",
-          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/chorus_leaf_roof_biome_modifier.json",
-          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/chorus_leaf_roof.json"
-        ]
       }
     },
     {
@@ -13886,6 +13806,9 @@
     "ITEMS:mod:staffs": [
       "CUSTOM:ChorusStaff"
     ],
+    "BIOMES:mod:is_far_ends": [
+      "CUSTOM:TheDark"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~ChorusStaff@CUSTOM:ChorusStaff",
       "~NeziumLunge@CUSTOM:NeziumLunge",
@@ -14064,7 +13987,6 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~MuddyDarkstone@CUSTOM:MuddyDarkstone",
       "~Darkstone@CUSTOM:Darkstone",
       "~VoidBlock@CUSTOM:VoidBlock",
       "~VoidedEndStone@CUSTOM:VoidedEndStone",
@@ -14110,8 +14032,6 @@
       "~Dirt@CUSTOM:Dirt"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~FarEnds@CUSTOM:MuddyDarkstone",
-      "~FarEnds@CUSTOM:VoidBlock",
       "~FarEnds@CUSTOM:Darkstone",
       "~Skip@Blocks.BEDROCK",
       "~Skip@CUSTOM:BreakableBedrock",
@@ -14185,7 +14105,6 @@
       "~LongZombie@CUSTOM:LongZombie"
     ],
     "BLOCKS:minecraft:mineable/axe": [
-      "~VoidtreeLog@CUSTOM:VoidtreeLog",
       "~ChorusHangingSign@CUSTOM:ChorusHangingSign",
       "~ChorusHangingSign@CUSTOM:ChorusHangingSign.wall",
       "~ChorusSign@CUSTOM:ChorusSign.wall",
@@ -14338,7 +14257,6 @@
       "~MasterOfTheDarkArts@CUSTOM:MasterOfTheDarkArts"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~VoidtreeLog@CUSTOM:VoidtreeLog",
       "~SouldustGravite@CUSTOM:SouldustGravite",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~BraniteOre@CUSTOM:BraniteOre"
@@ -14403,14 +14321,13 @@
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
-      "~MuddyDarkstone@CUSTOM:MuddyDarkstone",
       "~Darkstone@CUSTOM:Darkstone",
       "~EndNeziumOre@CUSTOM:EndNeziumOre",
       "~Graystone@CUSTOM:Graystone"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~Halflands@CUSTOM:Halflands",
       "~TheDark@CUSTOM:TheDark",
+      "~Halflands@CUSTOM:Halflands",
       "~DarkenedSands@CUSTOM:DarkenedSands"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
@@ -14437,10 +14354,6 @@
     "ITEMS:minecraft:piglin_loved": [
       "~NeziumIngot@CUSTOM:NeziumIngot",
       "~RawNezium@CUSTOM:RawNezium"
-    ],
-    "BIOMES:mod:is_far_ends": [
-      "CUSTOM:TheDark",
-      "CUSTOM:VoidWorld"
     ],
     "BIOMES:minecraft:has_structure/village_plains": [
       "~Halflands@CUSTOM:Halflands"
@@ -15622,8 +15535,6 @@
       "entity.worldstudios_world.chorus_chest_boat": "Chorus Boat with Chest",
       "item.worldstudios_world.chorus_staff": "Chorus Staff",
       "enchantment.worldstudios_world.big_shot": "Big Shot",
-      "item.worldstudios_world.voidtree_log": "Voidtree Log",
-      "biome.worldstudios_world.void_world": "Void World",
       "item.worldstudios_world.slinker_spawn_egg": "Slinker Spawn Egg",
       "entity.worldstudios_world.slinker": "Slinker",
       "entity.worldstudios_world.corpse": "Corpse",
@@ -15631,9 +15542,7 @@
       "entity.worldstudios_world.littleman": "Littleman",
       "item.worldstudios_world.littleman_spawn_egg": "Littleman Spawn Egg",
       "gamerule.worldstudios_world.spawn_corpses.description": "Corpeses will spawn after player death.",
-      "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses",
-      "item.worldstudios_world.muddy_darkstone": "Muddy Darkstone",
-      "biome.worldstudios_world.the_lounges": "The Lounges"
+      "gamerule.worldstudios_world.spawn_corpses": "Spawn corpses"
     }
   },
   "metadata": {
@@ -15659,8 +15568,6 @@
       "src/main/java/net/mcreator/worldstudiosworld/endbiomes/TheEndBiomeData.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusFlowerBlockMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/ChorusPlantBlockMixin.java",
-      "src/main/java/net/mcreator/worldstudiosworld/world/features/StructureFeature.java",
-      "src/main/java/net/mcreator/worldstudiosworld/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluids.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluidTypes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModMenus.java",

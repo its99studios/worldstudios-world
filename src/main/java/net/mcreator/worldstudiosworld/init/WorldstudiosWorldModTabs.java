@@ -383,8 +383,6 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.HALFSTONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.DARKSTONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CHORUS_LEAVES.get().asItem());
-			tabData.accept(WorldstudiosWorldModBlocks.VOIDTREE_LOG.get().asItem());
-			tabData.accept(WorldstudiosWorldModBlocks.MUDDY_DARKSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());

@@ -20,7 +20,6 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.worldstudiosworld.world.features.StructureFeature;
 import net.mcreator.worldstudiosworld.network.WorldstudiosWorldModVariables;
 import net.mcreator.worldstudiosworld.init.*;
 
@@ -57,7 +56,6 @@ public class WorldstudiosWorldMod {
 		WorldstudiosWorldModEntities.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModTabs.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModVariables.ATTACHMENT_TYPES.register(modEventBus);
-		StructureFeature.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModPotions.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModMobEffects.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModMenus.REGISTRY.register(modEventBus);
